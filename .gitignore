@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# TensorFlow / Keras checkpoint dirs
+checkpoints/
+checkpoints_opt/
+untitled_project/
+
+
 # Distribution / packaging
 .Python
 build/
