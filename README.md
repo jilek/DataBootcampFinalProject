@@ -46,9 +46,9 @@ I fixed the branches so that they match what was in the instructions. That is to
 			main
 ```
 3. The main branch has the most recent code as of now (including Tahereh's latest addition).
-4. Please refer to file://Docs/Supplementary_+GitHub.pdf for more info on Git usage.
+4. Please refer to https://github.com/jilek/DataBootcampFinalProject/blob/main/Doc/Supplementary_%2BGitHub.pdf for more info on Git usage.
 
-
+**Remember to make sure you are on the correct branch when you do your work**
 
 To run the code:
 
