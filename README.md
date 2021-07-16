@@ -10,7 +10,6 @@ I fixed the branches so that they match what was in the instructions. That is to
 
 		README.md - the file you are reading now
 		.gitignore - don't push unecessary files/dirs from Tensorflow / Keras:
-				checkpoints_opt/ - lots of checkpoint files every time you run
 		ChocolateBarRatings.ipynb - the jupyter notebook code
 		cleaning.ipynb - Tahereh's new code to clean data in CSV file
 		ChocoloateBarRatings_opt1.h5 - the saved NN model
@@ -25,13 +24,8 @@ I fixed the branches so that they match what was in the instructions. That is to
 		README.md - the file you are reading now
 		Bruce/
 			README.md - empty
-			.gitignore - don't push unecessary files/dirs from Tensorflow / Keras:
-							checkpoints/
-							checkpoints_opt/
-							untitled_project/
 			chocolate_bar_ratings/
 				archive.zip - the original zip file from kaggle
-				checkpoints_opt/ - lots of checkpoint files every time you run
 				ChocolateBarRatings.ipynb - the jupyter notebook code
 				ChocoloateBarRatings_opt1.h5 - the saved NN model
 				flavors_of_cacao.csv - a slightly modified csv file from the zip
@@ -53,6 +47,8 @@ I fixed the branches so that they match what was in the instructions. That is to
 ```
 3. The main branch has the most recent code as of now (including Tahereh's latest addition).
 4. Please refer to file://Docs/Supplementary_+GitHub.pdf for more info on Git usage.
+
+
 
 To run the code:
 
