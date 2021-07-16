@@ -3,7 +3,24 @@
 ## Rev2 - Correctly set up branches
 
 I read through the lecture slides, and realized that I had set up the repo & branches incorrectly.
-The old structure was:
+
+I fixed the branches so that they match what was in the instructions. That is to say, everything is in the top-level **DataBootcampFinalProject** directory, not down in **DataBootcampFinalProject/\<user\>** directories.
+
+##### The new structure is:
+
+		README.md - the file you are reading now
+		.gitignore - don't push unecessary files/dirs from Tensorflow / Keras:
+				checkpoints_opt/ - lots of checkpoint files every time you run
+		ChocolateBarRatings.ipynb - the jupyter notebook code
+		cleaning.ipynb - Tahereh's new code to clean data in CSV file
+		ChocoloateBarRatings_opt1.h5 - the saved NN model
+		Resources - a place to hold data, etc.
+			archive.zip - the original zip file from kaggle
+			flavors_of_cacao.csv - same as the one in archive.zip, but with minor edit to header row
+		Images - a place to put screenshots or other images (see sample image below)
+
+
+##### The old structure was:
 
 		README.md - the file you are reading now
 		Bruce/
@@ -25,35 +42,17 @@ The old structure was:
 		Yan/
 			README.md - empty
 
-The new structure is:
-
-		README.md - the file you are reading now
-		.gitignore - don't push unecessary files/dirs from Tensorflow / Keras:
-				checkpoints_opt/ - lots of checkpoint files every time you run
-		ChocolateBarRatings.ipynb - the jupyter notebook code
-		cleaning.ipynb - Tahereh's new code to clean data in CSV file
-		ChocoloateBarRatings_opt1.h5 - the saved NN model
-		Resources - a place to hold data, etc.
-			archive.zip - the original zip file from kaggle
-			flavors_of_cacao.csv - same as the one in archive.zip, but with minor edit to header row
-		Images - a place to put screenshots or other images (see sample image below)
-
-I fixed the branches so that they match what was in the instructions.
-
 1. Everything is in the DataBootcampFinalProject directory.
 2. This is the list of branches:
+```
 			Bruce
 			Tahereh
 			Travis
 			Yan
 			main
+```
 3. The main branch has the most recent code as of now (including Tahereh's latest addition).
-
-
-
-
-
-Thanks
+4. Please refer to file://Docs/Supplementary_+GitHub.pdf for more info on Git usage.
 
 To run the code:
 
