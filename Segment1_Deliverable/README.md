@@ -20,7 +20,7 @@ Table 1 - Team Roles for this Project
 
 Figure 1 - Team Roles Diagram
 
-![roles.png](Images/roles.png)
+![roles.png](./Images/roles.png)
 
 ## Results
 
