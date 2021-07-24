@@ -44,12 +44,12 @@ Table 2 - Rubric for Segment 1
 
 | Segment | Item | Details |Points |
 | :--     | :--  | :--     |   --: |
-| 1 | [Presentation](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment1_Deliverable/Chocolate%20Bar%20Ratings%20Predictor.pdf) |  |  30 |
+| 1 | [Presentation](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment1_Deliverable/Chocolate%20Bar%20Ratings%20Predictor.pdf)                           |                            |  30 |
 |   | Selected topic                                                 | Done: (see Overview above) |     |
 |   | Reason for topic                                               | Done: (see Overview above) |     |
 |   | Desc. of data source                                           | Done: (see Overview above) |     |
 |   | Questions we want to answer                                    | Done: (see Overview above) |     |
-| 1 | [GitHub](https://github.com/jilek/DataBootcampFinalProject/tree/main/Segment1_Deliverable) |   |  10 |
+| 1 | GitHub                                                         |                            |  10 |
 |   | Main branch includes a README.md                               | Done: this file            |     |
 |   | README.md includes communication protocols                     | Done: Slack                |     |
 |   | At least one branch for each team member                       | Done                       |     |
