@@ -1,20 +1,19 @@
 
 -- Creates chocolate_table columns based on clean_flavours_of_cocoa.csv
-
+-- Note both tables are not currently linked
 
 CREATE TABLE chocolate_table (
 	Company VARCHAR,
 	Bean_Origin_or_Bar_Name VARCHAR,
-	"REF"INT,
+	"REF" INT,
 	Review_Date VARCHAR,
 	Cocoa_Percent FLOAT,
 	Company_Location VARCHAR,
 	Rating FLOAT,
 	Bean_Type VARCHAR,
 	Broad_Bean_Origin VARCHAR,
-	PRIMARY KEY ("REF")
+	PRIMARY KEY ("REF", Bean_Origin_or_Bar_Name, Rating)
 );
-
 -- Creates location_table columns based on the country_and_usa_states_lat_long
 
 CREATE TABLE location_table (
