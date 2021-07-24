@@ -10,7 +10,7 @@ CREATE TABLE chocolate_table (
 	Cocoa_Percent FLOAT,
 	Company_Location VARCHAR,
 	Rating FLOAT,
-	Bean_Types VARCHAR,
+	Bean_Type VARCHAR,
 	Broad_Bean_Origin VARCHAR,
 	PRIMARY KEY ("REF")
 );
