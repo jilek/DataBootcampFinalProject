@@ -9,7 +9,8 @@
 - The port is **5432**
 - I'll Slack the password to the team.
 
-### Steps:
+### Set up PostgreSQL
+
 1. Start pgAdmin
 2. Create a new 'Server' which will point the Amazon RDS server. It will populate with available databases.
 
@@ -87,14 +88,26 @@
 
     ![alter_table.png](Images/alter_table.png)
 
-12. Imports for python
+### Option1: Talk to RDS via SQLAlchemy & psycopg2
+
+1. Imports for python via Jupyter Notebook
 
     ![imports.png](Images/imports.png)
 
-13. Option1: Read RDS database with psycopg2.  **This step can seem to take a very long time if the RDS server or network is overloaded. Just click the 'Stop' icon in jupyter notebook, and re-run this step**
+2. Read RDS database with psycopg2.  **This step can seem to take a very long time if the RDS server or network is overloaded. Just click the 'Stop' icon in jupyter notebook, and re-run this step**
 
     ![rds_read_with_psycopg2.png](Images/rds_read_with_psycopg2.png)
 
-14. Option2: Read RDS database with JDBC:
+### Option2: Talk to RDS via JDBC & PySpark
 
-    Not ready for this yet.
+1. Initialize Spark and Java JVM via [Google Colab](https://colab.research.google.com/).
+
+    ![init_spark_and_jvm.png](Images/init_spark_and_jvm.png)
+
+2. Initialize JDBC via PySpark
+
+    ![init_jdbc.png](Images/init_jdbc.png)
+
+3. Read RDS with JDBC.
+
+    ![rds_read_with_jdbc.png](Images/rds_read_with_jdbc.png)
