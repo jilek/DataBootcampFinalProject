@@ -596,7 +596,7 @@ Doble & Bignall,Puerto Cabello,1688,2015,85.0,England,3.0,missing,Venezuela,"3- 
 Doble & Bignall,"Panama, Raven",1371,2014,72.0,England,3.25,missing,Panama,"3- B,S,C","mild cherry, earthy",PA,8.537981,-80.782127,Central America
 Doble & Bignall,"Puerto Cabello, Mantuano",1371,2014,72.0,England,3.25,Trinitario,Venezuela,"3- B,S,C","fatty, rasin, nutty",VE,6.42375,-66.58973,South America
 Doble & Bignall,Johe,1407,2014,72.0,England,3.5,Criollo,Nicaragua,"3- B,S,C","nutty, caramel, toffee",NI,12.865416,-85.207229,Central America
-Dole (Guittard),"O'ahu, N. Shore, Waialua Estate",311,2009,70.0,United States of America,3.75,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
+Dole (Guittard),"O'ahu, N. Shore, Waialua Estate",311,2009,70.0,United States of America,3.75,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
 Dolfin (Belcolade),Africa,304,2008,88.0,Belgium,3.0,Forastero,Other,Unknown,missing,ZZ,0.00,0.00,Other
 Dolfin (Belcolade),Noir,63,2006,70.0,Belgium,1.5,missing,Unknown,"3- B,S,L","acidic, astringent, unpleasant",ZZ,0.00,0.00,Unknown
 Domori,Hacienda Victoria,1672,2015,70.0,Italy,3.75,missing,Ecuador,"2- B,S","floral, well developed, creamy",EC,-1.831239,-78.183406,South America
@@ -779,7 +779,7 @@ Fruition,Camino Verde,1185,2013,75.0,United States of America,3.0,missing,Ecuado
 Fruition,Peru,863,2012,70.0,United States of America,2.5,missing,Peru,"3- B,S,C","oily, tart, chlorine",PE,-9.189967,-75.015152,South America
 Fruition,Signature Blend,753,2011,66.0,United States of America,3.25,Trinitario,Costa Rica,"3- B,S,C","cocoa, spicy, sweet",CR,9.748917,-83.753428,Central America
 Fruition,Costa Rica,781,2011,70.0,United States of America,3.0,missing,Costa Rica,"3- B,S,C","fatty, sweet, vanilla",CR,9.748917,-83.753428,Central America
-Garden Island,"Kaua'I, Alea Estate +world",1367,2014,85.0,United States of America,2.5,Blend,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
+Garden Island,"Kaua'I, Alea Estate +world",1367,2014,85.0,United States of America,2.5,Blend,United States,Unknown,missing,US,37.09024,-95.712891,United States
 Georgia Ramon,Akesson P.,1642,2015,65.0,Germany,3.25,Trinitario,Madagascar,"4- B,S,C,L","sandy, sweet, candy tart",MG,-18.766947,46.869107,Africa
 Georgia Ramon,ABOCFA Coop,1642,2015,70.0,Germany,4.0,Forastero,Ghana,"4- B,S,C,L",cocoa and coconut,GH,7.946527,-1.023194,Africa
 Georgia Ramon,Conacado Coop,1646,2015,70.0,Germany,3.5,Trinitario,Dominican Republic,"4- B,S,C,L","deep cocoa, fruit, spice",DO,18.735693,-70.162651,Caribbean
@@ -813,7 +813,7 @@ Guittard,Coucher du Soleil,654,2011,72.0,United States of America,2.75,missing,U
 Guittard,Lever du Soleil,654,2011,61.0,United States of America,3.25,missing,Unknown,"5- B,S,C,V,L","sweet, creamy, floral, orange",ZZ,0.00,0.00,Unknown
 Guittard,Onyx,654,2011,72.0,United States of America,3.25,missing,Unknown,"5- B,S,C,V,L","dry, sticky, brownie",ZZ,0.00,0.00,Unknown
 Guittard,Trinidad,552,2010,65.0,United States of America,3.0,Trinitario,Trinidad Tobago,"5- B,S,C,V,L","creamy, mild tobacco, ham",TT,10.691803,-61.222503,Caribbean
-Guittard,"O'ahu, N. Shore, Waialua E., Kakoleka",316,2009,55.0,United States of America,3.0,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
+Guittard,"O'ahu, N. Shore, Waialua E., Kakoleka",316,2009,55.0,United States of America,3.0,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
 Guittard,Nocturne,387,2009,91.0,United States of America,3.0,missing,Unknown,"5- B,S,C,V,L","bitter, fatty, fruit",ZZ,0.00,0.00,Unknown
 Guittard,Complexite,387,2009,70.0,United States of America,3.5,Blend,Unknown,"5- B,S,C,V,L","complex, fruit, nut, raisin",ZZ,0.00,0.00,Unknown
 Guittard,Machu Pichu,259,2008,65.0,United States of America,3.0,missing,Peru,"5- B,S,C,V,L","sweet, vanilla, rich",PE,-9.189967,-75.015152,South America
@@ -833,7 +833,7 @@ Habitual,Trinitario,1197,2014,70.0,Canada,3.5,Trinitario,Unknown,Unknown,missing
 Habitual,Downtown London,1201,2014,65.0,Canada,2.75,missing,Unknown,"3- B,S,C","molasses, sweet, long,cocoa",ZZ,0.00,0.00,Unknown
 Habitual,Africa meets Latina,1201,2014,70.0,Canada,3.0,missing,Unknown,"3- B,S,C","fatty, nutty, earthy",ZZ,0.00,0.00,Unknown
 Habitual,Amazonas,1201,2014,80.0,Canada,3.0,missing,Unknown,"3- B,S,C","sandy, roasted vegetal",ZZ,0.00,0.00,Unknown
-Habitual,Sharkey,1201,2014,66.0,Canada,3.25,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
+Habitual,Sharkey,1201,2014,66.0,Canada,3.25,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
 Habitual,one hundred,1205,2014,100.0,Canada,2.0,missing,Unknown,Unknown,"unrefined, bitter, earthy",ZZ,0.00,0.00,Unknown
 Hachez,Arriba,166,2007,77.0,Germany,2.5,Forastero,Ecuador,"4- B,S,C,V","buttery, floral, burnt",EC,-1.831239,-78.183406,South America
 Hacienda El Castillo,Don Homero- Cerecita Valley,1327,2014,55.0,Ecuador,2.75,Trinitario,Ecuador,"4- B,S,C,L","overyly sweet, banana, yogurt",EC,-1.831239,-78.183406,South America
@@ -851,8 +851,8 @@ Heirloom Cacao Preservation (Fruition),"Cota Brus, Terciopelo, 2015",1748,2016,7
 Heirloom Cacao Preservation (Guittard),"Alto Beni, Upper Rio Beni, 2014",1239,2014,67.0,United States of America,3.5,"Amazon, ICS",Bolivia,"3- B,S,C",full flavor spectrum,BO,-16.290154,-63.588653,South America
 Heirloom Cacao Preservation (Guittard),"Wild Beni, Lower Rio Beni, Tranquilidad, 2014",1243,2014,67.0,United States of America,3.0,Beniano,Bolivia,"3- B,S,C","woody, earthy, medicinal",BO,-16.290154,-63.588653,South America
 Heirloom Cacao Preservation (Guittard),"Los Rios, Hacienda Limon, Orecao, 2014",1243,2014,67.0,United States of America,3.75,EET,Ecuador,"3- B,S,C","nutty, butterscotch",EC,-1.831239,-78.183406,South America
-Heirloom Cacao Preservation (Guittard),"Maunawili, O'ahu, Agri Research C., 2014",1243,2014,67.0,United States of America,3.75,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
-Heirloom Cacao Preservation (Manoa),"Maunawili, O'ahu, Agri Research C., 2015",1744,2016,72.0,United States of America,3.5,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
+Heirloom Cacao Preservation (Guittard),"Maunawili, O'ahu, Agri Research C., 2014",1243,2014,67.0,United States of America,3.75,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
+Heirloom Cacao Preservation (Manoa),"Maunawili, O'ahu, Agri Research C., 2015",1744,2016,72.0,United States of America,3.5,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
 Heirloom Cacao Preservation (Millcreek),"Los Rios, Hacienda Limon, Orecao, 2015",1744,2016,70.0,United States of America,3.5,EET,Ecuador,"3- B,S,C",floral,EC,-1.831239,-78.183406,South America
 Heirloom Cacao Preservation (Mindo),"Pinchincha, Mindo, Coop Nueva Esper., 2015",1748,2016,77.0,United States of America,3.5,EET,Ecuador,"3- B,S,C","strong floral, black licorice",EC,-1.831239,-78.183406,South America
 Heirloom Cacao Preservation (Zokoko),"Alto Beni, Upper Rio Beni, 2015",1744,2016,68.0,United States of America,3.75,"Amazon, ICS",Bolivia,"3- B,S,C","creamy, mild nutty & woody",BO,-16.290154,-63.588653,South America
@@ -1041,12 +1041,12 @@ Lillie Belle,"The Other One, Grand Cru",947,2012,74.0,United States of America,3
 Lillie Belle,Wild Thing,947,2012,68.0,United States of America,3.5,Criollo,Bolivia,"2- B,S","fatty, grassy, cocoa",BO,-16.290154,-63.588653,South America
 Lindt & Sprungli,Excellence (US Version),157,2007,85.0,Switzerland,3.0,missing,Unknown,"4- B,S,C,V","harsh burnt, mild cocoa, tang",ZZ,0.00,0.00,Unknown
 Loiza,Puerto Rico,1049,2013,65.0,Puerto Rico,2.5,missing,Puerto Rico,"5- B,S,C,V,L","black pepper, vanilla, harsh",PR,18.220833,-66.590149,Caribbean
-Lonohana,"Haleiwa, O'ahu; Lonohana E., Kanahiku",1383,2014,70.0,United States of America,3.75,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
-Lonohana,"Haleiwa E, O'ahu, 2014",1395,2014,65.0,United States of America,3.25,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
-Lonohana,"Haleiwa E, O'ahu, 2014",1395,2014,75.0,United States of America,3.75,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
-Lonohana,"Opaeula Estate, O'ahu, Nene, CG Exclusive",1093,2013,71.0,United States of America,3.0,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
-Lonohana,"Opaeula Estate, O'ahu, Ele'ele",1097,2013,72.0,United States of America,3.0,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
-Lonohana,"Hawaiian Crown, Kona Vanilla",1097,2013,70.0,United States of America,3.5,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
+Lonohana,"Haleiwa, O'ahu; Lonohana E., Kanahiku",1383,2014,70.0,United States of America,3.75,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
+Lonohana,"Haleiwa E, O'ahu, 2014",1395,2014,65.0,United States of America,3.25,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
+Lonohana,"Haleiwa E, O'ahu, 2014",1395,2014,75.0,United States of America,3.75,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
+Lonohana,"Opaeula Estate, O'ahu, Nene, CG Exclusive",1093,2013,71.0,United States of America,3.0,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
+Lonohana,"Opaeula Estate, O'ahu, Ele'ele",1097,2013,72.0,United States of America,3.0,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
+Lonohana,"Hawaiian Crown, Kona Vanilla",1097,2013,70.0,United States of America,3.5,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
 Love Bar,Nicaragua,1502,2015,75.0,United States of America,2.0,missing,Nicaragua,"2- B,S","multiple off flavors, metallic",NI,12.865416,-85.207229,Central America
 Luker,Selva,552,2010,46.0,Colombia,2.75,missing,Colombia,Unknown,missing,CO,4.570868,-74.297333,South America
 Luker,Macondo,552,2010,60.0,Colombia,3.0,missing,Colombia,Unknown,missing,CO,4.570868,-74.297333,South America
@@ -1067,11 +1067,11 @@ Madecasse (Cinagra),Madagascar,288,2008,75.0,Madagascar,3.5,Trinitario,Madagasca
 Madre,Guadalcanal,1940,2017,73.0,United States of America,3.5,missing,Solomon Islands,"2- B,S","mild earthy, mild cocoa, nut",SB,-9.64571,160.156194,Oceania
 Madre,Puerto Rico,1085,2013,70.0,United States of America,2.75,missing,Puerto Rico,"4- B,S,C,V","intense vanilla, swiss miss",PR,18.220833,-66.590149,Caribbean
 Madre,Brazil,1085,2013,70.0,United States of America,3.5,missing,Brazil,"4- B,S,C,V","strong vanilla, nut, coffee",BR,-14.235004,-51.92528,South America
-Madre,"Choobua, Kona",1089,2013,70.0,United States of America,2.75,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
+Madre,"Choobua, Kona",1089,2013,70.0,United States of America,2.75,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
 Madre,"Xocunusco, Chiapas, Pichucalco",1089,2013,70.0,United States of America,2.75,missing,Mexico,"4- B,S,C,V","vanilla, earthy, caramel",MX,23.634501,-102.552784,North America
-Madre,"Hamakua Coast, Kokoleka",991,2012,70.0,United States of America,3.25,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
-Madre,"Criollo, Hawaii",995,2012,70.0,United States of America,3.25,Criollo,Hawaii,"4- B,S,C,V","creamy, burnt nuts, woody",HI,19.898682,-155.665857,Oceania
-Madre,Kaua'i,995,2012,70.0,United States of America,3.5,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
+Madre,"Hamakua Coast, Kokoleka",991,2012,70.0,United States of America,3.25,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
+Madre,"Criollo, Hawaii",995,2012,70.0,United States of America,3.25,Criollo,United States,"4- B,S,C,V","creamy, burnt nuts, woody",US,37.09024,-95.712891,United States
+Madre,Kaua'i,995,2012,70.0,United States of America,3.5,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
 Madre,Dominican,672,2011,70.0,United States of America,2.5,missing,Dominican Republic,"4- B,S,C,V","sandy, sweet, strong vanilla",DO,18.735693,-70.162651,Caribbean
 Madre,Upala,693,2011,70.0,United States of America,2.75,missing,Costa Rica,"4- B,S,C,V","sticky, strong vanilla, pepper",CR,9.748917,-83.753428,Central America
 Madre,"Chiapas, Triple Cacao",607,2010,72.0,United States of America,2.75,missing,Mexico,"4- B,S,C,V","raisiny, chewy",MX,23.634501,-102.552784,North America
@@ -1083,8 +1083,8 @@ Majani,Ecuador,531,2010,70.0,Italy,2.0,missing,Ecuador,"4- B,S,C,L","strong vani
 Malagasy (Chocolaterie Robert),Sambirano 2006,184,2007,75.0,Madagascar,2.75,Trinitario,Madagascar,"4- B,S,C,L","cardboard, tea-like",MG,-18.766947,46.869107,Africa
 Malagasy (Chocolaterie Robert),Mora Mora 2006,184,2007,73.0,Madagascar,3.5,Trinitario,Madagascar,"4- B,S,C,L","creamy, sublte grape notes",MG,-18.766947,46.869107,Africa
 Malagos,"Davao, Mt. Talamo foothills",1121,2013,65.0,Philippines,3.5,Trinitario,Philippines,"5- B,S,C,V,L","sandy, sweet, cocoa",PH,12.879721,121.774017,Asia
-Malie Kai (Guittard),"O'ahu, N. Shore, Waialua Estate w/ nibs",502,2010,55.0,United States of America,3.5,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
-Malie Kai (Guittard),"O'ahu, N. Shore, Waialua Estate",311,2009,55.0,United States of America,2.75,Blend,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
+Malie Kai (Guittard),"O'ahu, N. Shore, Waialua Estate w/ nibs",502,2010,55.0,United States of America,3.5,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
+Malie Kai (Guittard),"O'ahu, N. Shore, Waialua Estate",311,2009,55.0,United States of America,2.75,Blend,United States,Unknown,missing,US,37.09024,-95.712891,United States
 Malmo,Chuao,1856,2016,70.0,Sweden,3.0,missing,Venezuela,"3- B,S,C","hammy, unrecognizable",VE,6.42375,-66.58973,South America
 Mana,Ecuador,1446,2015,74.0,United States of America,2.5,missing,Ecuador,Unknown,missing,EC,-1.831239,-78.183406,South America
 Mana,Peru,1219,2014,74.0,United States of America,2.5,missing,Peru,"3- B,S,C","rubber, off medicinal",PE,-9.189967,-75.015152,South America
@@ -1093,11 +1093,11 @@ Mana,Conacado,821,2012,74.0,United States of America,3.75,missing,Dominican Repu
 Manifesto Cacao,Colombia,1331,2014,70.0,Colombia,2.75,missing,Colombia,"4- B,S,C,L","muted, nutty",CO,4.570868,-74.297333,South America
 Manoa,Markham Valley,1522,2015,72.0,United States of America,3.5,missing,Papua New Guinea,"3- B,S,C","smoke, fruit",PG,-6.314993,143.95555,Oceania
 Manoa,Coto Brus,1522,2015,72.0,United States of America,3.75,missing,Costa Rica,"3- B,S,C","dried fruit, balanced, cocoa",CR,9.748917,-83.753428,Central America
-Manoa,"Waiahole, O'ahu",1089,2013,72.0,United States of America,3.75,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
+Manoa,"Waiahole, O'ahu",1089,2013,72.0,United States of America,3.75,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
 Manoa,"Liberia, #174",1003,2012,72.0,United States of America,3.25,missing,Liberia,Unknown,missing,LR,6.428055,-9.429499,Africa
-Manoa,"Hamakua, Hawaiian Crown, #176",1007,2012,72.0,United States of America,2.75,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
+Manoa,"Hamakua, Hawaiian Crown, #176",1007,2012,72.0,United States of America,2.75,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
 Manoa,Piura,1007,2012,72.0,United States of America,3.0,missing,Peru,Unknown,missing,PE,-9.189967,-75.015152,South America
-Manoa,"Oahu, Winward, #151, Maunawili district",1007,2012,72.0,United States of America,3.25,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
+Manoa,"Oahu, Winward, #151, Maunawili district",1007,2012,72.0,United States of America,3.25,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
 Manufaktura Czekolady,Johe,1844,2016,70.0,Poland,3.75,missing,Nicaragua,"3- B,S,C","basic, balanced, deep cocoa",NI,12.865416,-85.207229,Central America
 Manufaktura Czekolady,Peru,1848,2016,70.0,Poland,3.5,missing,Peru,"3- B,S,C","nutty, roasty,",PE,-9.189967,-75.015152,South America
 Manufaktura Czekolady,Porcelana,1255,2014,70.0,Poland,3.75,Criollo,Venezuela,"2- B,S","nutty, intense, roasty",VE,6.42375,-66.58973,South America
@@ -1255,7 +1255,7 @@ Naive,Grenada,867,2012,71.0,Lithuania,2.5,Trinitario,Grenada,"4- B,S,C,V","sandy
 Na�ve,Nicaragua,1379,2014,70.0,Lithuania,3.25,Criollo,Nicaragua,"4- B,S,C,L","sandy, intense, tropical fruit",NI,12.865416,-85.207229,Central America
 Na�ve,Chuao,1399,2014,75.0,Lithuania,2.75,Trinitario,Venezuela,Unknown,missing,VE,6.42375,-66.58973,South America
 Na�ve,Barinas,1399,2014,70.0,Lithuania,3.0,missing,Venezuela,Unknown,missing,VE,6.42375,-66.58973,South America
-Nanea,Criollo Blend,1007,2013,85.0,United States of America,3.5,missing,Hawaii,Unknown,"sandy, spicy, earthy",HI,19.898682,-155.665857,Oceania
+Nanea,Criollo Blend,1007,2013,85.0,United States of America,3.5,missing,United States,Unknown,"sandy, spicy, earthy",US,37.09024,-95.712891,United States
 Nathan Miller,Peru,1403,2014,72.0,United States of America,2.25,missing,Peru,"2- B,S","metallic, medicinal, pungent",PE,-9.189967,-75.015152,South America
 Nathan Miller,Hispaniola,1403,2014,70.0,United States of America,2.5,missing,Dominican Republic,"2- B,Sw","grassy, dirt, mild spice",DO,18.735693,-70.162651,Caribbean
 Nathan Miller,Ghana,1403,2014,70.0,United States of America,3.5,Forastero,Ghana,"3- B,S,C","brownie, toffee",GH,7.946527,-1.023194,Africa
@@ -1329,8 +1329,8 @@ Original Beans (Felchlin),"Alto Beni, Wild Harvest, Itenez R. 24hr c.",733,2011,
 Original Beans (Felchlin),"D.R. Congo, Cru Virunga",331,2009,70.0,Switzerland,3.0,Forastero,Republic of Congo,"3- B,S,C",vegetable and honey,CG,-0.228021,15.827659,Africa
 Original Beans (Felchlin),"Piura, Apotequil, ""Porcelana"" 72hr c.",341,2009,75.0,Switzerland,3.0,Criollo,Peru,"3- B,S,C","creamy, sour banana, lemon",PE,-9.189967,-75.015152,South America
 Original Beans (Felchlin),"Alto Beni, Wild Harvest, Itenez R., 60hr c.",341,2009,68.0,Switzerland,3.25,missing,Bolivia,"3- B,S,C","rich cocoa, bread notes",BO,-16.290154,-63.588653,South America
-Original Hawaiin Chocolate Factory,"Hawai'i, Kona Grand Cru E.",316,2009,60.0,United States of America,3.0,Criollo,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
-Original Hawaiin Chocolate Factory,"Hawai'i, Kona Estate Grown",24,2006,60.0,United States of America,3.0,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
+Original Hawaiin Chocolate Factory,"Hawai'i, Kona Grand Cru E.",316,2009,60.0,United States of America,3.0,Criollo,United States,Unknown,missing,US,37.09024,-95.712891,United States
+Original Hawaiin Chocolate Factory,"Hawai'i, Kona Estate Grown",24,2006,60.0,United States of America,3.0,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
 Orquidea,Peru,859,2012,65.0,Peru,3.0,missing,Peru,"4- B,S,C,L","sandy, molasses, brownie",PE,-9.189967,-75.015152,South America
 Orquidea,Peru,859,2012,65.0,Peru,3.0,missing,Peru,"4- B,S,C,L","dry, banana, molasses",PE,-9.189967,-75.015152,South America
 Orquidea,Peru,859,2012,72.0,Peru,3.0,missing,Peru,"4- B,S,C,L","sandy, molasses, brownie",PE,-9.189967,-75.015152,South America
@@ -1564,8 +1564,8 @@ Shark Mountain,Cuyagua,1466,2015,77.0,United States of America,2.75,Criollo,Vene
 Shark Mountain,ROIG,1466,2015,74.0,United States of America,3.5,Criollo,Dominican Republic,"2- B,S","grapes, tangy, cocoa",DO,18.735693,-70.162651,Caribbean
 Shark Mountain,Ecuador,1335,2014,75.0,United States of America,3.0,Trinitario,Ecuador,"2- B,S","coffee, nutty",EC,-1.831239,-78.183406,South America
 Shark Mountain,"Belize, 2013",1335,2014,72.0,United States of America,3.25,Criollo,Belize,"2- B,S","fruity, blueberry",BZ,17.189877,-88.49765,Caribbean
-Shark's,Hilo,713,2011,73.0,United States of America,2.0,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
-Shark's,"Hilo, w/ added cocoa butter",721,2011,73.0,United States of America,2.5,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
+Shark's,Hilo,713,2011,73.0,United States of America,2.0,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
+Shark's,"Hilo, w/ added cocoa butter",721,2011,73.0,United States of America,2.5,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
 Shattel,Tingo Maria,1884,2016,70.0,Peru,3.25,missing,Peru,"3- B,S,C","earthy, roasty, vegetal",PE,-9.189967,-75.015152,South America
 Shattell,Porcelana,757,2011,75.0,Peru,3.5,Criollo,Peru,"3- B,S,C","strong spice, perfume, roasty",PE,-9.189967,-75.015152,South America
 Sibu,Oro,1586,2015,82.0,Costa Rica,3.25,missing,Costa Rica,"3- B,S,C","gritty, fatty, coffee",CR,9.748917,-83.753428,Central America
@@ -1652,7 +1652,7 @@ Soma,Equator,1081,2013,67.0,Canada,4.0,missing,Peru,Unknown,missing,PE,-9.189967
 Soma,Orinoco,1173,2013,70.0,Canada,3.25,Forastero,Venezuela,Unknown,missing,VE,6.42375,-66.58973,South America
 Soma,"Bachelor's Hall E., St. Thomas Parish",1177,2013,70.0,Canada,4.0,Trinitario,Jamaica,Unknown,missing,JM,18.109581,-77.297508,Caribbean
 Soma,Noula Coop,817,2012,70.0,Canada,3.25,missing,Haiti,"3- B,S,C","uneven, grassy, roasty",HT,18.971187,-72.285215,Caribbean
-Soma,O'ahu,833,2012,70.0,Canada,3.75,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
+Soma,O'ahu,833,2012,70.0,Canada,3.75,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
 Soma,"Dual Origins, Sambirano, Elvesia",867,2012,70.0,Canada,4.0,Blend,Dominican Republic,Unknown,missing,DO,18.735693,-70.162651,Caribbean
 Soma,"Dancing in Your Head, 5 bean blend",867,2012,70.0,Canada,4.0,Blend,Grenada,"3- B,S,C","creamy, complex, peanut",GD,12.262776,-61.604171,Caribbean
 Soma,Cahabon Region,951,2012,70.0,Canada,3.5,Trinitario,Guatemala,Unknown,missing,GT,15.783471,-90.230759,Central America
@@ -1672,7 +1672,7 @@ Soma,Papua New Guinea,387,2009,70.0,Canada,3.5,Trinitario,Papua New Guinea,"3- B
 Soma,Madagascar,387,2009,70.0,Canada,3.75,Criollo,Madagascar,"3- B,S,C","subtle red berry, complex",MG,-18.766947,46.869107,Africa
 Soma,Ocumare,387,2009,70.0,Canada,3.75,Criollo,Venezuela,"3- B,S,C",black tea,VE,6.42375,-66.58973,South America
 Somerville,Nicaragua,1367,2014,70.0,United States of America,3.25,missing,Nicaragua,"2- B,S","earthy, dried fruit, complex",NI,12.865416,-85.207229,Central America
-Somerville,"Hawaiian, Big Island",1395,2014,70.0,United States of America,3.5,missing,Hawaii,Unknown,missing,HI,19.898682,-155.665857,Oceania
+Somerville,"Hawaiian, Big Island",1395,2014,70.0,United States of America,3.5,missing,United States,Unknown,missing,US,37.09024,-95.712891,United States
 Soul,Dominican Republic,1932,2017,70.0,Canada,3.25,missing,Dominican Republic,"3- B,S,C","sandy, robust, grapes, malt",DO,18.735693,-70.162651,Caribbean
 Soul,Dominican Republic,1932,2017,70.0,Canada,3.25,missing,Dominican Republic,"2- B,S","few grits, sweet, cocoa",DO,18.735693,-70.162651,Caribbean
 Soul,Madagascar,1936,2017,70.0,Canada,3.5,missing,Madagascar,"2- B,S","tart, sour, basic",MG,-18.766947,46.869107,Africa
