@@ -1,0 +1,14 @@
+body {
+	color: #000000;
+}
+.jumbotron {
+    background-image: url("../images/banner.png");
+    background-size: 100% 100%;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px #000000;
+}
+.lorem-ipsum {
+    //font-family: "Times New Roman", Times, serif;
+    font-family: "Lucida Handwriting", cursive, serif;
+}
