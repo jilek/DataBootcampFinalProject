@@ -56,7 +56,7 @@ Table 2 - Rubric for Segment2
 |   | Description of the data exploration phase of the project       | **TBD**                    |     |
 |   | Description of the analysis phase of the project               | **TBD**                    |     |
 |   | *Slides*                                                       |                            |     |
-|   |  Presentations are drafted in Google Sheets                    | **Done? google sheets?**   |     |
+|   |  Presentations are drafted in Google Slides                    | Done (see 'Presentation as Google Slides' link above) |     |
 | 2 | **GitHub**                                                     |                            |  10 |
 |   | *Main branch*                                                  |                            |     |
 |   | All code necessary to perform exploratory analysis             | **Done?** (EDA.ipynb)      |     |
