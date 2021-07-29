@@ -47,7 +47,8 @@ Table 2 - Rubric for Segment2
 
 | Segment | Item | Details |Points |
 | :--     | :--  | :--     |   --: |
-| 2 | **[Presentation](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/Chocolate%20Bar%20Ratings%20Predictor.pdf)**                          |                            |  15 |
+| 2 | **[Presentation as PDF](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/Chocolate%20Bar%20Ratings%20Predictor.pdf)** | |  15 |
+|   | **[Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)** | | |
 |   | Selected topic                                                 | Done: (see Overview above) |     |
 |   | Reason for topic                                               | Done: (see Overview above) |     |
 |   | Desc. of data source                                           | Done: (see Overview above) |     |
@@ -136,7 +137,7 @@ Write-up goes here
 
 Write-up goes here
 
-###### Dashboard: Description of the interactive elements	
+###### Dashboard: Description of the interactive elements
 
 Write-up goes here
 
