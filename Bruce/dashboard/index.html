@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flavors of Chocolate</title>
+
+  <!-- BootStrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" href="static/css/style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Flavors of Chocolate Dashboard</h1>
+        <p>Use the interactive charts below to explore the dataset</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Company ID No.:</h5>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Chocolate Bar Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+
+      <div class="col-md-5">
+        <div id="bar"></div>
+        <p>id=bar goes here</p>
+      </div>
+      <div class="col-md-5">
+        <div id="gauge"></div>
+        <p>id=guage goes here</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-2">
+        <p>Please select a Chocolate Bar to show relevant metrics.</p>
+      </div>
+      <div class="col-md-5">
+        <p>What will we put in the barchart above?</p>
+      </div>
+      <div class="col-md-5">
+        <p>The guage above shows Cocoa Percentage</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12" id="mapid">></div>
+      <p>WTF2???</p>
+    </div>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+  <!-- API key -->
+  <script type="text/javascript" src="static/js/config.js"></script>
+
+  <!-- Our JavaScript -->
+  <script type="text/javascript" src="static/js/logic.js"></script>
+
+  <script type="text/javascript" src="chocolate.js"></script>
+
+</body>
+
+</html>
