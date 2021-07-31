@@ -1,6 +1,6 @@
 ## Database:
 
-This is the current outline of the ETL and database.
+This is the current outline of the ETL and database. 
 
 ![data_flow_diagram](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/data_flow_diagram.png)
 
@@ -11,7 +11,9 @@ This is the current outline of the ETL and database.
 
 ![Schema](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/schema.png)
 
-|   |      Table     |
+* Through pgAdmin, we have imported the cleaned csv files to populate the tables.
+
+|   |      pgAdmin Tables:     |
 |----------|:-------------:|
 |clean_flavors_table |  ![clean_flavors](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/clean_flavors_table_pdadmin.png) | 
 | location_table |  ![loc_table](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/location_table_pgadmin.png)  |  
