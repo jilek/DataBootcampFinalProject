@@ -11,6 +11,13 @@ This is the current outline of the ETL and database.
 
 ![Schema](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/schema.png)
 
+|   |      Table     |
+|----------|:-------------:|
+|clean_flavors_table |  ![clean_flavors](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/clean_flavors_table_pdadmin.png) | 
+| location_table |  ![loc_table](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/location_table_pgadmin.png)  |  
+
+
+
 * Stores static data for use during the project	Yan: (RDS + PostgreSQL)	
 
 * Interfaces with the project in some format (DB connects to model?)
