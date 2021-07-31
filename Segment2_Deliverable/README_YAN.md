@@ -47,8 +47,10 @@ This is the current outline of the ETL process and database set up.
 
 ![sql_join_tables_code](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/Images/Query2tablesForMerge.png)
 
-* Output of the two combined (see image below):
-    * The columns highlighted within the blue section consists of data from the 'clean_flavors_table' while the columns highlighted within the green section are from the 'location_table' while orange section is where the columns were merged on.
+* Output of the combined table (see image below):
+    * The columns highlighted within the blue section consists of data from the 'clean_flavors_table' while the columns highlighted within the green section are from the 'location_table'. The highlighted orange section is where the columns were merged on.
+
+* The joined table is now ready to be used for plotting and preprocessing in the machine learning models.
 
 ![joined_tables](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/Images/joined_tables.png)
 
