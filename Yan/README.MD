@@ -20,9 +20,16 @@ This is the current outline of the ETL process and database set up.
 
 ## Connecting to AWS RDS using Python:
 
-* The libraries pyscopg2 and sqlAlchemy will be used to connect to AWS RDS from Jupyter notebooks.
+* The libraries pyscopg2 and sqlAlchemy will be used to connect to AWS RDS from Jupyter notebooks. Call the connect_to_db funtion to connect to AWS RDS and enter password.
 
 ![connect_to_rds](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/connect_to_rds.png)
+
+#
+* Confirm that connection has been successful when the message 'connection successful' is printed.
+
+![connect_success](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/connection_confirmed.png)
+
+## Query the RDS in Python (Jupyter Notebooks) and convert to pandas DataFrame to view.
 
 * Stores static data for use during the project	Yan: (RDS + PostgreSQL)	
 
