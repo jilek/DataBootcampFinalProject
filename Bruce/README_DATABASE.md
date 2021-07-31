@@ -9,7 +9,8 @@
 - The port is **5432**
 - I'll Slack the password to the team.
 
-### Steps:
+### Set up PostgreSQL
+
 1. Start pgAdmin
 2. Create a new 'Server' which will point the Amazon RDS server. It will populate with available databases.
 
@@ -19,7 +20,7 @@
 
   ![server_name.png](Images/server_name.png)
 
-4. Set Connection. Specify host (see above), enter password, and **select 'Save password'**
+4. Set Connection. Specify host (see above), enter password, and **select 'Save password'**. I can't remember if the 'Username' field is automatically filled in, but you will need to add the password. I'll Slack it to the team. (Saving the password means you don't have to keep re-entering it.)
 
   ![server_connection.png](Images/server_connection.png)
 
@@ -27,7 +28,7 @@
 
   ![start_query_tool.png](Images/start_query_tool.png)
 
-6. Copy/paste the following SQL code into Query tool, select it with mouse, and run to create the 'chocolate_table'. Note that the CSV file we will use does not have an index, so I can't set the SERIAL 'ID' field yet. We do that later, after we've read the CSV, with an 'ALTER TABLE' command.
+6. **The chocolate_table already exists in my RDS instance. These steps are here just in case you need to create a NEw table**. Copy/paste the following SQL code into Query tool, select it with mouse, and run to create the 'chocolate_table'. Note that the CSV file we will use does not have an index, so I can't set the SERIAL 'ID' field yet. We do that later, after we've read the CSV, with an 'ALTER TABLE' command.
 
     ```
     -- uncomment and run the following line to delete the table from the database if needed
@@ -46,7 +47,7 @@
     );
     ```
 
-7. (Optional) Do a few CRUD ops, then Do the 'DROP TABLE' command and redo step 6 again.
+7. (**Optional**) Do a few CRUD ops, then Do the 'DROP TABLE' command and redo step 6 again.
 
     ```
     -- 'C'reate a fake 'Hershey' bar
@@ -69,32 +70,44 @@
     select * from chocolate_table;
     ```
 
-8. Select the Import command.
+8. Select the Import command. **The chocolate_table has already been imported. This is here in case you need to import any other tables.**
 
     ![select_import_for_table.png](Images/select_import_for_table.png)
 
-9. Fill out the Import fields (NOTE: I manually edited the offending entry for 'Bean_Origin_or_Bar_Name' in the CSV file with the embedded single quotes inside double quotes)
+9. Fill out the Import fields (NOTE: I manually edited the offending entry for 'Bean_Origin_or_Bar_Name' in the CSV file with the embedded single quotes inside double quotes). **The chocolate_table has already been imported. This is here in case you need to import any other tables.**
 
     ![import_csv_to_postgresql.png](Images/import_csv_to_postgresql.png)
 
-10. Now modify the table to have a unique ID column that can be used for joins, etc.
+10. Now modify the table to have a unique ID column that can be used for joins, etc. **The chocolate_table has already been 'ALTER'ed. This is here in case you need to alter other tables.**
 
     ```
     ALTER TABLE chocolate_table ADD Column ID SERIAL PRIMARY KEY;
     ```
 
-11. Verify that it worked
+11. Verify that it worked.
 
     ![alter_table.png](Images/alter_table.png)
 
-12. Imports for python
+### Option1: Talk to RDS via SQLAlchemy & psycopg2
+
+1. Imports for python via Jupyter Notebook
 
     ![imports.png](Images/imports.png)
 
-13. Option1: Read RDS database with psycopg2:
+2. Read RDS database with psycopg2.  **This step can seem to take a very long time if the RDS server or network is overloaded. Just click the 'Stop' icon in jupyter notebook, and re-run this step**
 
     ![rds_read_with_psycopg2.png](Images/rds_read_with_psycopg2.png)
 
-14. Option2: Read RDS database with JDBC:
+### Option2: Talk to RDS via JDBC & PySpark
 
-    Not ready for this yet.
+1. Initialize Spark and Java JVM via [Google Colab](https://colab.research.google.com/).
+
+    ![init_spark_and_jvm.png](Images/init_spark_and_jvm.png)
+
+2. Initialize JDBC via PySpark
+
+    ![init_jdbc.png](Images/init_jdbc.png)
+
+3. Read RDS with JDBC.
+
+    ![rds_read_with_jdbc.png](Images/rds_read_with_jdbc.png)
