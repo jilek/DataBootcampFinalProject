@@ -2,7 +2,7 @@
 
 This is the current set up of the ETL and database.
 
-![data_flow_diagram]()
+![data_flow_diagram](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/data_flow_diagram.png)
 
 
 * Stores static data for use during the project	Yan: (RDS + PostgreSQL)	
