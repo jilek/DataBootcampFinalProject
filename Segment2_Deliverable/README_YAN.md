@@ -47,20 +47,11 @@ This is the current outline of the ETL process and database set up.
 
 ![sql_join_tables_code](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/Images/Query2tablesForMerge.png)
 
+* Output of the two combined:
+
+![joined_tables](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/Images/joined_tables.png)
 
 
-
-* Stores static data for use during the project	Yan: (RDS + PostgreSQL)	
-
-* Interfaces with the project in some format (DB connects to model?)
-
-* Includes at least two tables
-
-* Includes at least at least one join
-
-* Includes at least one connection string	Done? (SQLAlchemy see README_DATABASE.md)	
-
-* Include ERD	Done (see Figure 1 below)	
 
 
 
