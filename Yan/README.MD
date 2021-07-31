@@ -20,7 +20,7 @@ This is the current outline of the ETL process and database set up.
 
 ## Connecting to AWS RDS using Python:
 
-* The libraries pyscopg2 and sqlAlchemy will be used to connect to AWS RDS from Jupyter notebooks. Call the connect_to_db funtion to connect to AWS RDS and enter password.
+* The libraries pyscopg2 and sqlAlchemy will be used to connect to AWS RDS from Jupyter notebooks. Call the connect_to_db function to connect to AWS RDS and enter password.
 
 ![connect_to_rds](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/connect_to_rds.png)
 
@@ -29,7 +29,16 @@ This is the current outline of the ETL process and database set up.
 
 ![connect_success](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/connection_confirmed.png)
 
+#
+
 ## Query the RDS in Python (Jupyter Notebooks) and convert to pandas DataFrame to view.
+
+|  |      SQL Query     |  Output |
+|----------|:-------------:|------:|
+| Query to view location_table from RDS |![query_loc](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/query_loc_table.png) |![output_loc](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/rds_loc_table.png) |
+| Query to view clean_flavors_table from RDS |![query_clean](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/query_clean_flavors.png) |  ![clean_output](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/rds_clean_flavors.png) |
+
+
 
 * Stores static data for use during the project	Yan: (RDS + PostgreSQL)	
 
