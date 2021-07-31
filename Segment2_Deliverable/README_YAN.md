@@ -45,6 +45,8 @@ This is the current outline of the ETL process and database set up.
 * As the data is divided into two tables, we can combine the two tables with a 'JOIN' using SQL syntax embedded within 3 quotemarks as shown in below image.
 * The two tables will be joined together on the 'broad_bean_origin_country' column.
 
+![sql_join_tables_code](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/Images/Query2tablesForMerge.png)
+
 
 
 
