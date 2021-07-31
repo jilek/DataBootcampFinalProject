@@ -38,34 +38,42 @@ function init() {
     var features = data.features;
     console.log(`features=${features}`)
     features.forEach((feature) => {
-      if (feature.properties.ADMIN == "Afghanistan") {
-
-        //feature.setStyle({ fillColor: '#dddddd' });
-
+      if (feature.properties.ADMIN == "United States of America" || feature.properties.ADMIN == "Afghanistan") {
         console.log(`feature=${feature.properties.ADMIN}`);
-        lon_lat_coords = feature.geometry.coordinates[0];
-        console.log(`coords=${lon_lat_coords}`);
-
-        let ccount = 0;
-        let lat_lon_coords = [];
-        lon_lat_coords.forEach((coord) => {
-          lat_lon_coords.push([coord[1], coord[0]])
-        });
-        //   console.log(`coordinates=${ccount}: ${coord}`);
-        //   var polygon = L.polygon(coords, { color: 'red' }).addTo(map);
-        //   ccount += 1;
-        // });
-
-        console.log(`===coordinates=${lat_lon_coords}`);
-        var polygon = L.polygon(lat_lon_coords, { color: 'red' }).addTo(map);
-
-        //var multiPolyline = L.multiPolyline(coords, { color: 'red' }).addTo(map);
+        let geometry_type = feature.geometry.type;
+        if (geometry_type == "Polygon") {
+          let lon_lat_coords = feature.geometry.coordinates[0];
+          console.log(`Polygon coords=${lon_lat_coords}`);
+          let lat_lon_coords = [];
+          lon_lat_coords.forEach((coord) => {
+            lat_lon_coords.push([coord[1], coord[0]]);
+          });
+          console.log(`===coordinates=${lat_lon_coords}`);
+          var polygon = L.polygon(lat_lon_coords, { color: 'red' }).addTo(map);
+        }
+        else if (geometry_type == "MultiPolygon") {
+          var polygons = [];
+          let ccount = 0;
+          let shapes = feature.geometry.coordinates;
+          var polygon = Object;
+          shapes.forEach((shape) => {
+            lon_lat_coords = shape[0];
+            let lat_lon_coords = [];
+            lon_lat_coords.forEach((coord) => {
+              lat_lon_coords.push([coord[1], coord[0]]);
+            });
+            console.log(`MultiPolygon ${ccount} coords=${lat_lon_coords}`);
+            ccount += 1;
+            polygon = L.polygon(lat_lon_coords, { color: 'green' }).addTo(map);
+            polygons.push(polygon);
+          });
+        }
+        else {
+          console.log(`ERROR: unknown geometry_type={geometry_type}`);
+        }
       }
     });
-
   });
-
-
 
   // Use the list of sample names to populate the select options
   d3.json("flavors_of_cacao_with_index.json").then((data) => {
