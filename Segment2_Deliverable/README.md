@@ -53,91 +53,92 @@ Table 2 - Rubric for Segment2
 |   | Reason for topic                                               | Done: (see Overview above) |     |
 |   | Desc. of data source                                           | Done: (see Overview above) |     |
 |   | Questions we want to answer                                    | Done: (see Overview above) |     |
-|   | Description of the data exploration phase of the project       | **TBD**                    |     |
-|   | Description of the analysis phase of the project               | **TBD**                    |     |
+|   | Description of the data exploration phase of the project       | **Taherah**                    |     |
+|   | Description of the analysis phase of the project               | **Taherah**                    |     |
 |   | *Slides*                                                       |                            |     |
 |   |  Presentations are drafted in Google Slides                    | Done (see 'Presentation as Google Slides' link above) |     |
 | 2 | **GitHub**                                                     |                            |  10 |
 |   | *Main branch*                                                  |                            |     |
-|   | All code necessary to perform exploratory analysis             | **Done?** (EDA.ipynb)      |     |
-|   | Some code necessary to complete the machine learning portion   | **Done?** (ChocolateBarRatings.ipynb)
+|   | All code necessary to perform exploratory analysis             | Done: Data_Clean.ipynb, [EDA.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/EDA.ipynb)
+Data_Clean.ipynb      |     |
+|   | Some code necessary to complete the machine learning portion   | EDA.ipynb, Machine_Learning.ipynb, ChocolateBarRatings.ipynb)
 |   | *README.md*                                                    |                            |     |
-|   | Communication protocols                                        | **Done?** (Slack)          |     |
-|   | Outline of the project                                         | **TBD**                    |     |
+|   | Communication protocols                                        | Done: (Slack)          |     |
+|   | Outline of the project                                         | **Bruce**                    |     |
 |   | *Individual Branches*                                          |                            |     |
 |   | At least one branch for each team member                       | Done                       |     |
 |   | Each member has >= 4 commits for Segment2 (>=8 total)          | [Done](https://github.com/jilek/DataBootcampFinalProject/pulse)  |     |
 | 2 | **[ML model](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/ChocolateBarRatings.ipynb)** |  |  30 |
-|   | Description of preliminary data preprocessing                  | **TBD**                    |     |
-|   | Description of preliminary feature engineering and preliminary feature selection, including decision-making process                 | **TBD**                    |     |
-|   | Description of how data was split into training and testing sets | **TBD** |  |
-|   | Explanation of model choice, including limitations and benefits | **TBD**  |  |
+|   | Description of preliminary data preprocessing                  | **Tahereh**                    |     |
+|   | Description of preliminary feature engineering and preliminary feature selection, including decision-making process                 | **Tahereh**                    |     |
+|   | Description of how data was split into training and testing sets | **Tahereh** |  |
+|   | Explanation of model choice, including limitations and benefits | **Travis / Tahereh**  |  |
 | 2 | **Database**                                                   |                            |  30 |
-|   | Stores static data for use during the project                  | **Done?** (RDS + PostgreSQL)|    |
-|   | Interfaces with the project in some format (DB connects to model?) | **Done?**              |     |
-|   | Includes at least two tables                                   | **TBD**                    |     |
-|   | Includes at least at least one join                            | **TBD**                    |     |
-|   | Includes at least one connection string                        | **Done?** (SQLAlchemy)     |     |
+|   | Stores static data for use during the project                  | **Yan**: (RDS + PostgreSQL)    |    |
+|   | Interfaces with the project in some format (DB connects to model?) | **Yan**              |     |
+|   | Includes at least two tables                                   | **Yan**                    |     |
+|   | Includes at least at least one join                            | **Yan**                    |     |
+|   | Includes at least one connection string                        | **Done?** (SQLAlchemy see README_DATABASE.md)     |     |
 |   | Include ERD                                                    | Done (see Figure 1 below)  |     |
 | 2 | **Dashboard**                                                  |                            |  15 |
-|   | Storyboard on Google Slides                                    | **TBD**                    |     |
-|   | Description of the tools that will be used to create the final dashboard | **TBD**          |     |
-|   | Description of the interactive elements                        | **TBD**                    |     |
+|   | Storyboard on Google Slides                                    | **Travis**                    |     |
+|   | Description of the tools that will be used to create the final dashboard | **Travis**          |     |
+|   | Description of the interactive elements                        | **Travis**                    |     |
 | 2 | **Total**                                                      |                            | 100 |
 
 Figure 1 - Entity Relationship Diagram (ERD) for the provisional Database
 
 ![ERD](Images/erd_diagram.png)
 
-###### Presentation: Description of the data exploration phase of the project
+#### Presentation: Description of the data exploration phase of the project
 
 Write-up to match slides goes here
 
-###### Presentation: Description of the analysis phase of the project
+#### Presentation: Description of the analysis phase of the project
 
 Write-up to match slides goes here
 
-###### GitHub / README.md: Communication protocols
+#### GitHub / README.md: Communication protocols
 
 Write-up goes here
 
-###### GitHub / README.md: Outline of the project
+#### GitHub / README.md: Outline of the project
 
 Write-up goes here
 
-###### ML Model: Description of preliminary data preprocessing
+#### ML Model: Description of preliminary data preprocessing
 
 Write-up goes here
 
-###### ML Model: Description of preliminary feature engineering and preliminary feature selection, including decision-making process
+#### ML Model: Description of preliminary feature engineering and preliminary feature selection, including decision-making process
 
 Write-up goes here
 
-###### ML Model: Description of how data was split into training and testing sets
+#### ML Model: Description of how data was split into training and testing sets
 
 Write-up goes here
 
-###### ML Model: Explanation of model choice, including limitations and benefits
+#### ML Model: Explanation of model choice, including limitations and benefits
 
 Write-up goes here
 
-###### Database: Includes at least two tables
+#### Database: Includes at least two tables
 
 Write-up goes here
 
-###### Database: Includes at least at least one join
+#### Database: Includes at least at least one join
 
 Write-up goes here
 
-###### Dashboard: Storyboard on Google Slides
+#### Dashboard: Storyboard on Google Slides
 
 Write-up goes here
 
-###### Dashboard: Description of the tools that will be used to create the final dashboard
+#### Dashboard: Description of the tools that will be used to create the final dashboard
 
 Write-up goes here
 
-###### Dashboard: Description of the interactive elements
+#### Dashboard: Description of the interactive elements
 
 Write-up goes here
 
