@@ -33,8 +33,10 @@ This is the current outline of the ETL process and database set up.
 
 ## Query the RDS in Python (Jupyter Notebooks) and convert to pandas DataFrame to view.
 
+* After connection has been made with the AWS RDS, we can query RDS within """ """ and store the tables in pandas dataframe.
+
 |  |      SQL Query     |  Output |
-|----------|:-------------:|------:|
+|----------|:-------------:|:------:|
 | Query to view location_table from RDS |![query_loc](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/query_loc_table.png) |![output_loc](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/rds_loc_table.png) |
 | Query to view clean_flavors_table from RDS |![query_clean](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/query_clean_flavors.png) |  ![clean_output](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/rds_clean_flavors.png) |
 
