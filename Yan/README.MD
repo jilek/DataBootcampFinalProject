@@ -22,7 +22,7 @@ This is the current outline of the ETL process and database set up.
 
 * The libraries pyscopg2 and sqlAlchemy will be used to connect to AWS RDS from Jupyter notebooks.
 
-
+![connect_to_rds](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/connect_to_rds.png)
 
 * Stores static data for use during the project	Yan: (RDS + PostgreSQL)	
 
