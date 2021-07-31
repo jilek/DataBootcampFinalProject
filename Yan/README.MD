@@ -1,9 +1,15 @@
 ## Database:
 
-This is the current set up of the ETL and database.
+This is the current outline of the ETL and database.
 
 ![data_flow_diagram](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/data_flow_diagram.png)
 
+
+## AWS RDS: 
+
+* The database contains 2 tables as shown in the schema in the image below. They are linked together through the 'Broad_Bean_Origin_Country' by a one to many relationship.
+
+![Schema](https://github.com/jilek/DataBootcampFinalProject/blob/main/Yan/Segment2/screenshots/schema.png)
 
 * Stores static data for use during the project	Yan: (RDS + PostgreSQL)	
 
