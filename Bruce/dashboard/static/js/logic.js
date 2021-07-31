@@ -2,9 +2,10 @@
 console.log("working");
 
 // Create the map object with a center and zoom level.
-    <!-- center: [40.7, -94.5], -->
+//center: [40.7, -94.5], 
+
 let map = L.map('mapid', {
-	center: [0, 0],
+    center: [0, 0],
     zoom: 2
 });
 
@@ -25,4 +26,4 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/t
 });
 
 // Then we add our 'graymap' tile layer to the map.
-streets.addTo(map);
+//FIXME streets.addTo(map);

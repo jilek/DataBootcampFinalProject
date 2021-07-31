@@ -78,30 +78,41 @@ const fs = require('fs');
 //    }
 //});
 
-fs.readFile('./dashboard/flavors_of_cacao.json', 'utf8', (err, data) => {
-    if (err) {
-        console.log(`Error reading file from disk: ${err}`);
-    } else {
-        // parse JSON string to JSON object
-        const flavors = JSON.parse(data);
-		let companies = Object.values(flavors["Company"]);
-		let bar_name = Object.values(flavors["Bean_Origin_or_Bar_Name"]);
-		let REF = Object.values(flavors["REF"]);
-		let date = Object.values(flavors["Review_Date"]);
-		let percent = Object.values(flavors["Cocoa_Percent"]);
-		let where = Object.values(flavors["Company_Location"]);
-		let rating = Object.values(flavors["Rating"]);
-		let bean_type = Object.values(flavors["Bean_Type"]);
-		let origin = Object.values(flavors["Broad_Bean_Origin"]);
+//fs.readFile('./dashboard/flavors_of_cacao.json', 'utf8', (err, data) => {
+//    if (err) {
+//        console.log(`Error reading file from disk: ${err}`);
+//    } else {
+//        // parse JSON string to JSON object
+//        const flavors = JSON.parse(data);
+//		let companies = Object.values(flavors["Company"]);
+//		let bar_name = Object.values(flavors["Bean_Origin_or_Bar_Name"]);
+//		let REF = Object.values(flavors["REF"]);
+//		let date = Object.values(flavors["Review_Date"]);
+//		let percent = Object.values(flavors["Cocoa_Percent"]);
+//		let where = Object.values(flavors["Company_Location"]);
+//		let rating = Object.values(flavors["Rating"]);
+//		let bean_type = Object.values(flavors["Bean_Type"]);
+//		let origin = Object.values(flavors["Broad_Bean_Origin"]);
+//
+//        //companies.forEach( foo => {
+//		//	console.log(`foo=${foo}`);
+//		//});
+//		console.log(companies instanceof Number);
+//		for( ii = 0; ii < companies.length; ii++) {
+//			console.log(`\'${companies[ii]}\' \'${bar_name[ii]}\' ${origin[ii]}`);
+//		}
+//    }
+//});
 
-        //companies.forEach( foo => {
-		//	console.log(`foo=${foo}`);
-		//});
-		console.log(companies instanceof Number);
-		for( ii = 0; ii < companies.length; ii++) {
-			console.log(`\'${companies[ii]}\' \'${bar_name[ii]}\' ${origin[ii]}`);
-		}
-    }
+let foo = [ 
+	[
+	["a", "b"],["c","d"],["e","f"]
+	]
+];
+foo[0].forEach((pair) => {
+	console.log(`pair=${pair}`);
 });
+
+console.log(`foo=${foo}`);
 
 console.log("end");

@@ -1,4 +1,9 @@
-Discussion points:
+## Database:
+
+This is the current set up of the ETL and database.
+
+![data_flow_diagram]()
+
 
 * Stores static data for use during the project	Yan: (RDS + PostgreSQL)	
 
