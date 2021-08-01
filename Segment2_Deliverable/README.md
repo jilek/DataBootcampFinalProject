@@ -223,7 +223,7 @@ Feature engineering is the process of using domain knowledge of the data to crea
 
  Figure 7 - Top 10 features in Random Forest Model
 
- ![RankedFeatures.png](Images/RankedFeatures.png)
+ ![RankedFeatures.PNG](Images/RankedFeatures.PNG)
 
 - **Machine Learning Models Results**:
 
