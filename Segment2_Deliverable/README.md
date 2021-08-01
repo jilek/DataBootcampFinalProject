@@ -386,6 +386,10 @@ Figure 17 - Resulting Joined Table
 
 See [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)
 
+Figure 18 - The Dashboard
+
+![Dashboard_slide.png](Images/Dashboard_slide.png)
+
 #### Section 12. Dashboard: Description of the tools and interactive elements that will be used to create the final dashboard
 
 Currently we are going to utilize Tableau to create a working dashboard.   Users will be able to select manufacturer country or cocoa bean source country and filter to the data.  Additional filters to allow for rating filters will allow a user to rapidly look at where the best rated bar and their bean sources are located.
