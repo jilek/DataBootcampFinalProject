@@ -4,7 +4,7 @@
 
 ## Overview
 
-- **Topic**: Our team will create a Neural Network to determine the 'rating' of chocolate from this kaggle dataset.
+- **Topic**: Our team will create a Neural Network to determine the 'rating' of chocolate from this Kaggle dataset.
 - **Reason**: Because we love chocolate. The scientific name is *Theobroma cacao* (Theobroma means "Food of the gods")
 - **Data Sources**:
 
