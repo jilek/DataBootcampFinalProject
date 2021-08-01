@@ -49,40 +49,40 @@ Table 2 - Rubric for Segment2
 | :--     | :--  | :--     |   --: |
 | 2 | **[Presentation as PDF](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/Chocolate%20Bar%20Ratings%20Predictor.pdf)** | |  15 |
 |   | **[Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)** | | |
-|   | Selected topic                                                 | Done: (see Overview above) |     |
-|   | Reason for topic                                               | Done: (see Overview above) |     |
-|   | Desc. of data source                                           | Done: (see Overview above) |     |
-|   | Questions we want to answer                                    | Done: (see Overview above) |     |
-|   | Description of the data exploration phase of the project       | Done: (See Section 1 below)                    |     |
-|   | Description of the analysis phase of the project               | Done: (See Section 2 below)                   |     |
+|   | Selected topic                                                 | Done: See Overview above |     |
+|   | Reason for topic                                               | Done: See Overview above |     |
+|   | Desc. of data source                                           | Done: See Overview above |     |
+|   | Questions we want to answer                                    | Done: See Overview above |     |
+|   | Description of the data exploration phase of the project       | Done: See Section 1 below)                    |     |
+|   | Description of the analysis phase of the project               | Done: See Section 2 below                   |     |
 |   | *Slides*                                                       |                            |     |
-|   |  Presentations are drafted in Google Slides                    | Done: (See 'Presentation as Google Slides' link above) |     |
+|   |  Presentations are drafted in Google Slides                    | Done: See [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP) |     |
 | 2 | **GitHub**                                                     |                            |  10 |
 |   | *Main branch*                                                  |                            |     |
 |   | All code necessary to perform exploratory analysis             | Done: [Data_Clean.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/Data_Clean.ipynb) , [EDA.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/EDA.ipynb)      |     |
 |   | Some code necessary to complete the machine learning portion   | Done: [EDA.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/EDA.ipynb) , [Machine_Learning.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/Machine_Learning.ipynb) ,  [ChocolateBarRatings.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/ChocolateBarRatings.ipynb)
 |   | *README.md*                                                    |                            |     |
-|   | Communication protocols                                        | Done: (Slack)          |     |
-|   | Outline of the project                                         | **Bruce**                    |     |
+|   | Communication protocols                                        | Done: Slack          |     |
+|   | Outline of the project                                         | Done: See Overview above.                    |     |
 |   | *Individual Branches*                                          |                            |     |
 |   | At least one branch for each team member                       | Done                       |     |
 |   | Each member has >= 4 commits for Segment2 (>=8 total)          | [Done](https://github.com/jilek/DataBootcampFinalProject/pulse)  |     |
 | 2 | **[ML model](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/ChocolateBarRatings.ipynb)** |  |  30 |
-|   | Description of preliminary data preprocessing                  | Done: (See Section 5 below.)                    |     |
+|   | Description of preliminary data preprocessing                  | Done: See Section 5 below.                    |     |
 |   | Description of preliminary feature engineering and preliminary feature selection, including decision-making process                 | Done: (See Section 6 below)                   |     |
-|   | Description of how data was split into training and testing sets | Done: (See Section 7 below) |  |
-|   | Explanation of model choice, including limitations and benefits | **Travis / Tahereh**  |  |
+|   | Description of how data was split into training and testing sets | Done: See Section 7 below |  |
+|   | Explanation of model choice, including limitations and benefits | Done: See Section 8 below  |  |
 | 2 | **Database**                                                   |                            |  30 |
-|   | Stores static data for use during the project                  | **Yan**: (RDS + PostgreSQL)    |    |
-|   | Interfaces with the project in some format (DB connects to model?) | **Yan**              |     |
-|   | Includes at least two tables                                   | **Yan**                    |     |
-|   | Includes at least at least one join                            | **Yan**                    |     |
-|   | Includes at least one connection string                        | **Done?** (SQLAlchemy see README_DATABASE.md)     |     |
-|   | Include ERD                                                    | Done (see Figure 1 below)  |     |
+|   | Stores static data for use during the project                  | Done: RDS + PostgreSQL    |    |
+|   | Interfaces with the project in some format  | Done: See Section 9 below              |     |
+|   | Includes at least two tables                                   | Done: See Section 9 below                    |     |
+|   | Includes at least at least one join                            | Done: See Section 10 below                  |     |
+|   | Includes at least one connection string                        | Done: SQLAlchemy and psycopg2     |     |
+|   | Include ERD                                                    | Done: See Figure 1 below  |     |
 | 2 | **Dashboard**                                                  |                            |  15 |
-|   | Storyboard on Google Slides                                    | **Travis**                    |     |
-|   | Description of the tools that will be used to create the final dashboard | **Travis**          |     |
-|   | Description of the interactive elements                        | **Travis**                    |     |
+|   | Storyboard on Google Slides                                    | Done: See [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)                    |     |
+|   | Description of the tools that will be used to create the final dashboard | Done: See Section 12 below.         |     |
+|   | Description of the interactive elements                        | Done: See Section 12 below.                    |     |
 | 2 | **Total**                                                      |                            | 100 |
 
 Figure 1 - Entity Relationship Diagram (ERD) for the provisional Database
@@ -277,27 +277,118 @@ The train test split can be seamlessly done by sklearn.model_selection.train_tes
 
 #### Section 8. ML Model: Explanation of model choice, including limitations and benefits
 
-Write-up goes here
+The team evaluated several machine learning classifier models.  These include logistic regression, SVM, RandomForest, Tensor Flow kera neural net, Extra Trees Classifier.  Attempts were made to evalute a binary classification system as well as a multiclass system.  Ratings classes were split into 2,3, and 4 class sets.
+
+- 2 Class sets were split with one class above the mean plus one SD and the other class below the mean plus one SD.
+
+- 3 Class sets split the ratings data as follows:
+    - class 1 below the mean minus 1 standard deviation
+    - class 2 between 1 standard deviation above and below the mean
+    - class 3 above the mean plus 1 standard deviation
+- 4 Class sets were split along the 25% quartiles.
+
+4 Class sets were quickly eliminated as they don't have enough samples on the end quartiles dues to the natural split of the ratings data into 0.25 ratings buckets.
+
+Three class sets were used in the multiclass ml models of Random Forest and Extra Trees Classifier.  In both cases the prediction and recall values were subpar at identifying highly rated chocolates.
+
+Figure 8 - Extra Trees Classifier Confusion Matrix
+
+![Extra Trees Classifier Confusion Matrix](Images/extratreesclassifierconfusionmatrix.png)
+
+Figure 9 - Extra Trees Classifier Classification Report
+
+![Extra Trees classification report](Images/extratreesclassifierclassificationreport.png)
+
+Figure 10 - Random Forest Classifier Confusion Matrix
+
+![Random Forest multi Classifier Confusion Matrix](Images/randomforestclassifierconfusionmatrix.png)
+
+Figure 11 - Random Forest Classifier Classification Report
+
+![Random Forest  classification report](Images/randomforestmulticlassifierclassificationreport.png)
+
+Utilizing the SMOTEENN combination oversample undersample routine with the binary classification system was able to give the best results with and an output of the feature importances.  This resampling combined with the RandomForest classifier produced the best results.
+
+The neural network model had relativiely high loss although its accuracy was the highest of the models.  Unfortunately due to the black box nature of the output it is not possible to glean important imformation as to which features are the most inportance to look for in a chocolate bar.
 
 #### Section 9. Database: Includes at least two tables
 
-Write-up goes here
+This is the current outline of the ETL process and database set up.
+
+Figure 12 - Data Flow Diagram
+
+![data_flow_diagram](Images/data_flow_diagram.png)
+
+
+###### AWS RDS and pgAdmin:
+
+* The database contains 2 tables as shown in the schema in the image below. They are linked together through the 'Broad_Bean_Origin_Country' by a one to many relationship.
+
+Figure 13 - Database Schema
+
+![Schema](Images/schema.png)
+
+* PgAdmin is connected directly to Amazon RDS. Through pgAdmin, we have imported the cleaned csv files to populate the tables. When the tables are queried, we can view the tables directly in pgAdmin.
+
+Table 3 - pgAdmin Tables
+
+|   |      pgAdmin Tables:     |
+|----------|:-------------:|
+|clean_flavors_table |  ![clean_flavors](Images/clean_flavors_table_pdadmin.png) |
+| location_table |  ![loc_table](Images/location_table_pgadmin.png)  |
+
+###### Connecting to AWS RDS using Python:
+
+* The libraries pyscopg2 and sqlAlchemy will be used to connect to AWS RDS from Jupyter notebooks. Call the connect_to_db function to connect to AWS RDS and enter password.
+
+Figure 14 - Connect to RDS
+
+![connect_to_rds](Images/connect_to_rds.png)
+
+* Confirm that connection has been successful when the message 'connection successful' is printed.
+
+Figure 15 - Connection Confirmed
+
+![connect_success](Images/connection_confirmed.png)
+
+
+###### Query the RDS in Python (Jupyter Notebooks) and convert to pandas DataFrame to view.
+
+* After connection has been made with the AWS RDS, we can query RDS within """ """ and store the tables in pandas dataframe.
+
+Table 4 - SQL Queries
+
+|  |      SQL Query     |  Output |
+|----------|:-------------:|:------:|
+| Query to view location_table from RDS |![query_loc](Images/query_loc_table.png) |![output_loc](Images/rds_loc_table.png) |
+| Query to view clean_flavors_table from RDS |![query_clean](Images/query_clean_flavors.png) |  ![clean_output](Images/rds_clean_flavors.png) |
 
 #### Section 10. Database: Includes at least at least one join
 
-Write-up goes here
+* As the data is divided into two tables, we can combine the two tables with a 'JOIN' using SQL syntax embedded within 3 quotemarks as shown in below image.
+* The two tables will be joined together on the 'broad_bean_origin_country' column.
+
+Figure 16 - SQL to Join Tables
+
+![sql_join_tables_code](Images/Query2tablesForMerge.png)
+
+* Output of the combined table (see image below):
+    * The columns highlighted within the blue section consists of data from the 'clean_flavors_table' while the columns highlighted within the green section are from the 'location_table'. The highlighted orange section is where the columns were merged on.
+
+* The joined table is now ready to be used for plotting and preprocessing in the machine learning models.
+
+Figure 17 - Resulting Joined Table
+
+![joined_tables](Images/joined_tables.png)
+
 
 #### Section 11. Dashboard: Storyboard on Google Slides
 
-Write-up goes here
+See [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)
 
-#### Section 12. Dashboard: Description of the tools that will be used to create the final dashboard
+#### Section 12. Dashboard: Description of the tools and interactive elements that will be used to create the final dashboard
 
-Write-up goes here
-
-#### Section 13. Dashboard: Description of the interactive elements
-
-Write-up goes here
+Currently we are going to utilize Tableau to create a working dashboard.   Users will be able to select manufacturer country or cocoa bean source country and filter to the data.  Additional filters to allow for rating filters will allow a user to rapidly look at where the best rated bar and their bean sources are located.
 
 ## Summary
 
