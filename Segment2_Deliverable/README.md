@@ -126,11 +126,11 @@ Once we cleaned our data and analyzed the dataset by creating several visualizat
 
 #### Section 3. GitHub / README.md: Communication protocols
 
-Write-up goes here
+The team will use **Slack** and **Zoom** for communication. We meet during Tue-Thur class hours, and again at 1pm on Saturdays.
 
 #### Section 4. GitHub / README.md: Outline of the project
 
-Write-up goes here
+See **Overview** section at the top of this file.
 
 #### Section 5. ML Model: Description of preliminary data preprocessing
 
