@@ -69,7 +69,7 @@ Table 2 - Rubric for Segment2
 |   | Each member has >= 4 commits for Segment2 (>=8 total)          | [Done](https://github.com/jilek/DataBootcampFinalProject/pulse)  |     |
 | 2 | **[ML model](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/ChocolateBarRatings.ipynb)** |  |  30 |
 |   | Description of preliminary data preprocessing                  | Done: See Section 5 below.                    |     |
-|   | Description of preliminary feature engineering and preliminary feature selection, including decision-making process                 | Done: (See Section 6 below)                   |     |
+|   | Description of preliminary feature engineering and preliminary feature selection, including decision-making process                 | Done: See Section 6 below                   |     |
 |   | Description of how data was split into training and testing sets | Done: See Section 7 below |  |
 |   | Explanation of model choice, including limitations and benefits | Done: See Section 8 below  |  |
 | 2 | **Database**                                                   |                            |  30 |
