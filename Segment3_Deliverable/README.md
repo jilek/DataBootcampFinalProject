@@ -41,9 +41,10 @@ Table 1 - Team Roles for this Project
 
 ## Results
 
-See Table A1 in the Appendix for the Segment1 Rubric
+See Table A1 in Appendix1 for the Segment1 Rubric
+See Table A2 in Appendix2 for the Segment2 Rubric
 
-Table 2 - Rubric for Segment2
+Table 2 - Rubric for Segment3
 
 | Segment | Item | Details |Points |
 | :--     | :--  | :--     |   --: |
@@ -423,3 +424,45 @@ Table A1 - Rubric for Segment1
 | 1 | Dashboard                                                      |                            |   0 |
 |   | n/a for segment 1                                              |                            |     |
 | 1 | **Total**                                                      |                            | 100 |
+
+Table A2 - Rubric for Segment2
+
+| Segment | Item | Details |Points |
+| :--     | :--  | :--     |   --: |
+| 2 | **[Presentation as PDF](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/Chocolate%20Bar%20Ratings%20Predictor.pdf)** | |  15 |
+|   | **[Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)** | | |
+|   | Selected topic                                                 | Done: See Overview above |     |
+|   | Reason for topic                                               | Done: See Overview above |     |
+|   | Desc. of data source                                           | Done: See Overview above |     |
+|   | Questions we want to answer                                    | Done: See Overview above |     |
+|   | Description of the data exploration phase of the project       | Done: See Section 1 below)                    |     |
+|   | Description of the analysis phase of the project               | Done: See Section 2 below                   |     |
+|   | *Slides*                                                       |                            |     |
+|   |  Presentations are drafted in Google Slides                    | Done: See [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP) |     |
+| 2 | **GitHub**                                                     |                            |  10 |
+|   | *Main branch*                                                  |                            |     |
+|   | All code necessary to perform exploratory analysis             | Done: [Data_Clean.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/Data_Clean.ipynb) , [EDA.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/EDA.ipynb)      |     |
+|   | Some code necessary to complete the machine learning portion   | Done: [EDA.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/EDA.ipynb) , [Machine_Learning.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/Machine_Learning.ipynb) ,  [ChocolateBarRatings.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/ChocolateBarRatings.ipynb)
+|   | *README.md*                                                    |                            |     |
+|   | Communication protocols                                        | Done: Slack          |     |
+|   | Outline of the project                                         | Done: See Overview above.                    |     |
+|   | *Individual Branches*                                          |                            |     |
+|   | At least one branch for each team member                       | Done                       |     |
+|   | Each member has >= 4 commits for Segment2 (>=8 total)          | [Done](https://github.com/jilek/DataBootcampFinalProject/pulse)  |     |
+| 2 | **[ML model](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/ChocolateBarRatings.ipynb)** |  |  30 |
+|   | Description of preliminary data preprocessing                  | Done: See Section 5 below.                    |     |
+|   | Description of preliminary feature engineering and preliminary feature selection, including decision-making process                 | Done: See Section 6 below                   |     |
+|   | Description of how data was split into training and testing sets | Done: See Section 7 below |  |
+|   | Explanation of model choice, including limitations and benefits | Done: See Section 8 below  |  |
+| 2 | **Database**                                                   |                            |  30 |
+|   | Stores static data for use during the project                  | Done: RDS + PostgreSQL    |    |
+|   | Interfaces with the project in some format  | Done: See Section 9 below              |     |
+|   | Includes at least two tables                                   | Done: See Section 9 below                    |     |
+|   | Includes at least at least one join                            | Done: See Section 10 below                  |     |
+|   | Includes at least one connection string                        | Done: SQLAlchemy and psycopg2     |     |
+|   | Include ERD                                                    | Done: See Figure 1 below  |     |
+| 2 | **Dashboard**                                                  |                            |  15 |
+|   | Storyboard on Google Slides                                    | Done: See [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)                    |     |
+|   | Description of the tools that will be used to create the final dashboard | Done: See Section 12 below.         |     |
+|   | Description of the interactive elements                        | Done: See Section 12 below.                    |     |
+| 2 | **Total**                                                      |                            | 100 |
