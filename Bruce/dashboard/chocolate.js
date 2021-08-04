@@ -140,6 +140,20 @@ function init() {
   drawMap();
 }
 
+legend = L.control({
+  position: "topright"
+});
+legend.onAdd = function () {
+  let div = L.DomUtil.create("div", "info legend");
+  div.innerHTML +=
+    "<i style=\'background: yellow\'>&nbsp;&nbsp;&nbsp;</i>&nbsp;Company Location</i><br>"
+    + "<i style=\'background: cyan\'>&nbsp;&nbsp;&nbsp;</i>&nbsp;Broad Bean Origin</i><br>"
+    + "<i style=\'background: magenta\'>&nbsp;&nbsp;&nbsp;</i>&nbsp;Company Location</i><br>"
+    + "<i>&nbsp;&nbsp;&nbsp;</i>&nbsp;& Broad Bean Origin are the same</i><br>";
+  return div;
+}
+legend.addTo(map);
+
 function optionChanged(newSample) {
   //console.log(`optionsChanged newSample=${newSample} features=${features} bean_types=${bean_types}`);
   // Fetch new data each time a new sample is selected
@@ -180,7 +194,7 @@ function buildMetadata(sample) {
     PANEL.append("h6").text(`${key.toUpperCase()}: ${value}`);
   });
 
-  COMPANY_URL = d3.select("#url_path1");
+  COMPANY_URL = d3.select("#url-path1");
   COMPANY_URL.html("");
   let this_company = company_values[sample];
   if (company_url_keys) {
