@@ -25,8 +25,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
-        <h1>Flavors of Chocolate Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+        <h2>Flavors of Chocolate Dashboard</h2>
+        <!-- <p>Use the interactive charts below to explore the dataset</p> -->
       </div>
     </div>
 
@@ -49,44 +49,46 @@
         <div id="bar"></div>
         <p>id=bar goes here</p>
       </div> -->
-
-      <div class="col-md-4">
-        <div id="gauge"></div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="row">
+            <div id="url_path1">
+              <a id="company_url" href="FOO">Visit Company Website HERE</a>
+            </div>
+          </div>
+          <div class="row">
+            <div id="gauge"></div>
+          </div>
+          <div class="row">
+            <!-- <div id="url_path2">
+              <p>"URL PATH2 GOES HERE</p>
+            </div> -->
+          </div>
+        </div>
       </div>
+
+      <div class="row">
+        <div class="col-md-12" id="mapid"></div>
+      </div>
+
     </div>
 
-    <div class="row">
-      <div class="col-md-8">
-      </div>
-      <!-- <div class="col-md-5">
-        <p>What will we put in the barchart above?</p>
-      </div> -->
-      <div class="col-md-4">
-      </div>
-    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
 
-    <div class="row">
-      <div class="col-md-12" id="mapid">></div>
-    </div>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
-  </div>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <!-- API key -->
+    <script type="text/javascript" src="static/js/config.js"></script>
 
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- Our JavaScript -->
+    <script type="text/javascript" src="static/js/logic.js"></script>
 
-  <!-- Make sure you put this AFTER Leaflet's CSS -->
-  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-    crossorigin=""></script>
-
-  <!-- API key -->
-  <script type="text/javascript" src="static/js/config.js"></script>
-
-  <!-- Our JavaScript -->
-  <script type="text/javascript" src="static/js/logic.js"></script>
-
-  <script type="text/javascript" src="chocolate.js"></script>
+    <script type="text/javascript" src="chocolate.js"></script>
 
 </body>
 
