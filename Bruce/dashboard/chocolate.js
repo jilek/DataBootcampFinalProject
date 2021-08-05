@@ -146,10 +146,10 @@ legend = L.control({
 legend.onAdd = function () {
   let div = L.DomUtil.create("div", "info legend");
   div.innerHTML +=
-    "<i style=\'background: yellow\'>&nbsp;&nbsp;&nbsp;</i>&nbsp;Company Location</i><br>"
-    + "<i style=\'background: cyan\'>&nbsp;&nbsp;&nbsp;</i>&nbsp;Broad Bean Origin</i><br>"
-    + "<i style=\'background: magenta\'>&nbsp;&nbsp;&nbsp;</i>&nbsp;Company Location</i><br>"
-    + "<i>&nbsp;&nbsp;&nbsp;</i>&nbsp;& Broad Bean Origin are the same</i><br>";
+    "<i style=\'background: yellow\'>&nbsp;&nbsp;&nbsp;</i>&nbsp;Company</i><br>"
+    + "<i style=\'background: cyan\'>&nbsp;&nbsp;&nbsp;</i>&nbsp;Origin</i><br>"
+    + "<i style=\'background: magenta\'>&nbsp;&nbsp;&nbsp;</i>&nbsp;Both</i><br>";
+  // + "<i>&nbsp;&nbsp;&nbsp;</i>&nbsp;& Bean Origin same</i><br>";
   return div;
 }
 legend.addTo(map);
