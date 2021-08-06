@@ -1,6 +1,6 @@
-# DataBootcampFinalProject Segment2 Deliverable
+# DataBootcampFinalProject Segment3 Deliverable
 
-**This is the Segment2 Deliverable for the Data Analytics Bootcamp Final Project.**
+**This is the Segment3 Deliverable for the Data Analytics Bootcamp Final Project.**
 
 ## Overview
 
@@ -39,6 +39,40 @@ Table 1 - Team Roles for this Project
 | Database     | Circle   | Yan |
 | Dashboard    | X?       | Travis |
 
+**The following information is from [The Kaggle Website](https://www.kaggle.com/rtatman/chocolate-bar-ratings)**
+
++ Context
+
+  Chocolate is one of the most popular candies in the world. Each year, residents of the United States collectively eat more than 2.8 billions pounds. However, not all chocolate bars are created equal! This dataset contains expert ratings of over 1,700 individual chocolate bars, along with information on their regional origin, percentage of cocoa, the variety of chocolate bean used and where the beans were grown.
+
++ Flavors of Cacao Rating System:
+
+  ```
+  5: Elite (Transcending beyond the ordinary limits)
+  4: Premium (Superior flavor development, character and style)
+  3: Satisfactory(3.0) to praiseworthy(3.75) (well made with special qualities)
+  2: Disappointing (Passable but contains at least one significant flaw)
+  1: Unpleasant (mostly unpalatable)
+  ```
+
++ In the original database each bar is described by the following features:
+
+  ```
+  Company : Name of the company manufacturing the bar.
+  Bean Origin: The specific geo-region of origin for the bar.
+  REF : A value linked to when the review was entered in the database. Higher = more recent.
+  Review_Date : Date of publication of the review.
+  Cocoa Percentage : Cocoa percentage (darkness) of the chocolate bar being reviewed.
+  Company_Location : Manufacturer base country.
+  Rating: Expert rating for the bar
+  Bean Type: The variety (breed) of bean used, if provided.
+  Broad Bean Origin : The broad geo-region of origin for the bean.
+  ```
+
++ Acknowledgements
+
+  These ratings were compiled by Brady Brelinski, Founding Member of the Manhattan Chocolate Society. For up-to-date information, as well as additional content (including interviews with craft chocolate makers), please see his website: [Flavors of Cacao](http://flavorsofcacao.com/index.html)
+
 ## Results
 
 + See Table A1 in Appendix1 for the Segment1 Rubric
@@ -48,7 +82,7 @@ Table 2 - Rubric for Segment3
 
 | Segment | Item | Details |Points |
 | :--     | :--  | :--     |   --: |
-| 3 | **[Presentation as PDF](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/Chocolate%20Bar%20Ratings%20Predictor.pdf)** | |  15 |
+| 3 | **[Presentation as PDF](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment3_Deliverable/Chocolate%20Bar%20Ratings%20Predictor.pdf)** | |  15 |
 |   | **[Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)** | | |
 |   | Selected topic                                                 | Done: See Overview above |     |
 |   | Reason for topic                                               | Done: See Overview above |     |
@@ -62,8 +96,8 @@ Table 2 - Rubric for Segment3
 | 3 | **GitHub**                                                     |                            |  10 |
 |   | *Main branch*                                                  |                            |     |
 |   | All code in the main branch is production-ready.               | **TBD ???**                |     |
-|   | All code necessary to perform exploratory analysis             | Done: [Data_Clean.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/Data_Clean.ipynb) , [EDA.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/EDA.ipynb)      |     |
-|   | Most code necessary to complete the machine learning portion   | Done: [EDA.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/EDA.ipynb) , [Machine_Learning.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/Machine_Learning.ipynb) ,  [ChocolateBarRatings.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment2_Deliverable/ChocolateBarRatings.ipynb)
+|   | All code necessary to perform exploratory analysis             | Done: [Data_Clean.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment3_Deliverable/Data_Clean.ipynb) , [EDA.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment3_Deliverable/EDA.ipynb)      |     |
+|   | Most code necessary to complete the machine learning portion   | Done: [EDA.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment3_Deliverable/EDA.ipynb) , [Machine_Learning.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment3_Deliverable/Machine_Learning.ipynb) ,  [ChocolateBarRatings.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment3_Deliverable/ChocolateBarRatings.ipynb)
 |   | *README.md*                                                    |                            |     |
 |   | Communication protocols                                        | Done: Slack          |     |
 |   | Cohesive, structured outline of the project                                         | Done: See Overview above.                    |     |
