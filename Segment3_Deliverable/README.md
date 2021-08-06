@@ -56,7 +56,7 @@ Table 2 - Rubric for Segment3
 |   | Questions we want to answer                                    | Done: See Overview above |     |
 |   | Description of the data exploration phase of the project       | Done: See Section 1 below                    |     |
 |   | Description of the analysis phase of the project               | Done: See Section 2 below                   |     |
-|   | Technologies, languages, tools, and algorithms used throuout the project | **TBD - Travis???** |   |
+|   | Technologies, languages, tools, and algorithms used throuout the project | Done: [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)  |   |
 |   | *Slides*                                                       |                            |     |
 |   |  Presentations are drafted in Google Slides                    | Done: See [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP) |     |
 | 3 | **GitHub**                                                     |                            |  10 |
@@ -78,8 +78,8 @@ Table 2 - Rubric for Segment3
 |   | Description of how data was split into training and testing sets | Done: See Section 7 below |  |
 |   | Explanation of model choice, including limitations and benefits | Done: See Section 8 below  |  |
 |   | Explanation of changes in model choice (if any since Segment2) | **TBD: See Section XX?  below**  |  |
-|   | Description of how they trained the model thus far, and any additional training that will take place. | **TBD: See Section XX? below** |  |
-|   | Description of the current accuracy score                      | **TBD: See Section XX? below** |  |
+|   | Description of how they trained the model thus far, and any additional training that will take place. | Done: See Section 7 below |  |
+|   | Description of the current accuracy score                      | **TBD: See Section XX? below Travis to capture confusion_matrix and accuracy for the model** |  |
 | 3 | **Database**                                                   |                            | n/a  |
 | n/a | Stores static data for use during the project                  | Done: RDS + PostgreSQL    |    |
 | n/a | Interfaces with the project in some format  | Done: See Section 9 below              |     |
@@ -89,8 +89,8 @@ Table 2 - Rubric for Segment3
 | n/a | Include ERD                                                    | Done: See Figure 1 below  |     |
 | 3 | **Dashboard**                                                  |                            |  30 |
 |   | Storyboard on Google Slides                                    | Done: See [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)                    |     |
-|   | Images from the initial analysis | **Done?**: See Section 12 below.         |     |
-|   | At least one interactive element                        | **Done?**: See Section 12 below.                    |     |
+|   | Images from the initial analysis | Done: See Section 11 below.         |     |
+|   | At least one interactive element                        | Done: [See link to Tableau Public](https://public.tableau.com/app/profile/travis.loseke/viz/ChocolateRatings_16273201336290/Selectingthebestbar?publish=yes)                   |     |
 | 3 | **Total**                                                      |                            | 100 |
 
 Figure 1 - Entity Relationship Diagram (ERD) for the provisional Database
