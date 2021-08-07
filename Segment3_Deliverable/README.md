@@ -95,7 +95,7 @@ Table 2 - Rubric for Segment3
 |   |  Presentations are drafted in Google Slides                    | Done: See [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP) |     |
 | 3 | **GitHub**                                                     |                            |  10 |
 |   | *Main branch*                                                  |                            |     |
-|   | All code in the main branch is production-ready.               | **TBD ???**                |     |
+|   | All code in the main branch is production-ready.               | Done                |     |
 |   | All code necessary to perform exploratory analysis             | Done: [Data_Clean.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment3_Deliverable/Data_Clean.ipynb) , [EDA.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment3_Deliverable/EDA.ipynb)      |     |
 |   | Most code necessary to complete the machine learning portion   | Done: [EDA.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment3_Deliverable/EDA.ipynb) , [Machine_Learning.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment3_Deliverable/Machine_Learning.ipynb) ,  [ChocolateBarRatings.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment3_Deliverable/ChocolateBarRatings.ipynb)
 |   | *README.md*                                                    |                            |     |
@@ -104,16 +104,16 @@ Table 2 - Rubric for Segment3
 |   | Link to Google Slides draft presentation | [Done](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP) |   |
 |   | *Individual Branches*                                          |                            |     |
 |   | At least one branch for each team member                       | Done                       |     |
-|   | Each member has >= 4 commits for Segment3 (>=12 total)          | [**TBD Travis=7, Tahereh=7**](https://github.com/jilek/DataBootcampFinalProject/pulse) |     |
-| 3 | **ML model**  | **TBD: which ipynb file(s)** | 45 |
-|   | Working code in Segment3_Deliverable dir                       | **TBD ???*** |   |
+|   | Each member has >= 4 commits for Segment3 (>=12 total)          | [Done](https://github.com/jilek/DataBootcampFinalProject/pulse) |     |
+| 3 | **ML model**  |  | 45 |
+|   | Working code in Segment3_Deliverable dir                       | Done|   |
 |   | Description of preliminary data preprocessing                  | Done: See Section 5 below.                    |     |
 |   | Description of preliminary feature engineering and preliminary feature selection, including decision-making process                 | Done: See Section 6 below                   |     |
 |   | Description of how data was split into training and testing sets | Done: See Section 7 below |  |
 |   | Explanation of model choice, including limitations and benefits | Done: See Section 8 below  |  |
-|   | Explanation of changes in model choice (if any since Segment2) | **TBD: See Section XX?  below**  |  |
+|   | Explanation of changes in model choice (if any since Segment2) | Done: See Section 8  below  |  |
 |   | Description of how they trained the model thus far, and any additional training that will take place. | Done: See Section 7 below |  |
-|   | Description of the current accuracy score                      | **TBD: See Section XX? below Travis to capture confusion_matrix and accuracy for the model** |  |
+|   | Description of the current accuracy score                      | Done: See Section 8 below |  |
 | 3 | **Database**                                                   |                            | n/a  |
 | n/a | Stores static data for use during the project                  | Done: RDS + PostgreSQL    |    |
 | n/a | Interfaces with the project in some format  | Done: See Section 9 below              |     |
@@ -124,6 +124,8 @@ Table 2 - Rubric for Segment3
 | 3 | **Dashboard**                                                  |                            |  30 |
 |   | Storyboard on Google Slides                                    | Done: See [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)                    |     |
 |   | Images from the initial analysis | Done: See Section 11 below.         |     |
+|   | Description of the tools that will be used to create the final dashboard | Done: See Section 12 below.         |     |
+|   | Description of the interactive elements                        | Done: See Section 12 below.                    |     |
 |   | At least one interactive element                        | Done: [See link to Tableau Public](https://public.tableau.com/app/profile/travis.loseke/viz/ChocolateRatings_16273201336290/Selectingthebestbar?publish=yes)                   |     |
 | 3 | **Total**                                                      |                            | 100 |
 
@@ -319,7 +321,7 @@ The train test split can be seamlessly done by sklearn.model_selection.train_tes
 
 #### Section 8. ML Model: Explanation of model choice, including limitations and benefits
 
-The team evaluated several machine learning classifier models.  These include logistic regression, SVM, RandomForest, Tensor Flow kera neural net, Extra Trees Classifier.  Attempts were made to evalute a binary classification system as well as a multiclass system.  Ratings classes were split into 2,3, and 4 class sets.
+The team evaluated several machine learning classifier models.  These include logistic regression, SVM, RandomForest, Balanced Random Forest, EasyEnsemble, Tensor Flow keras neural net, Extra Trees Classifier.  Attempts were made to evalute a binary classification system as well as a multiclass system.  Ratings classes were split into 2,3, and 4 class sets.
 
 - 2 Class sets were split with one class above the mean plus one SD and the other class below the mean plus one SD.
 
@@ -329,7 +331,7 @@ The team evaluated several machine learning classifier models.  These include lo
     - class 3 above the mean plus 1 standard deviation
 - 4 Class sets were split along the 25% quartiles.
 
-4 Class sets were quickly eliminated as they don't have enough samples on the end quartiles dues to the natural split of the ratings data into 0.25 ratings buckets.
+4 Class sets were quickly eliminated as they don't have enough samples on the end quartiles due to the natural split of the ratings data into 0.25 ratings buckets.
 
 Three class sets were used in the multiclass ml models of Random Forest and Extra Trees Classifier.  In both cases the prediction and recall values were subpar at identifying highly rated chocolates.
 
@@ -349,9 +351,18 @@ Figure 11 - Random Forest Classifier Classification Report
 
 ![Random Forest  classification report](Images/randomforestmulticlassifierclassificationreport.png)
 
-Utilizing the SMOTEENN combination oversample undersample routine with the binary classification system was able to give the best results with and an output of the feature importances.  This resampling combined with the RandomForest classifier produced the best results.
+FIXME_START: smoteen results were not really generated by Travis' .ipynb file
+
+Utilizing the SMOTEENN combination oversample undersample routine with the binary classification system was able to give the best results with an output of the feature importances.  This resampling combined with the RandomForest classifier produced the best results.
+
+![Random Forest binary with SMOTEENN classification report](Images/randomforestbinaryclassifierclassificationreport.png)
+
+FIXME_END:
 
 The neural network model had relativiely high loss although its accuracy was the highest of the models.  Unfortunately due to the black box nature of the output it is not possible to glean important imformation as to which features are the most inportance to look for in a chocolate bar.
+
+###### Machine Learning Segment 3
+The team continue to refine the ML process.  We added a Balanced Random Forest Classifier and tested different balancing routines including Naive Random Oversampling.  Additional changes were made to the parameters including changing the criterion from gini to entropy. This change coupled with adjusting max depth and max features made modest improvements to the Balanced Random Forest and Random Forest models.
 
 #### Section 9. Database: Includes at least two tables
 
