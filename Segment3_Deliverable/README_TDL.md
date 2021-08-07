@@ -1,5 +1,5 @@
 ### Machine Learning Model selection
-The team evaluated several machine learning classifier models.  These include logistic regression, SVM, RandomForest, Tensor Flow kera neural net, Extra Trees Classifier.  Attempts were made to evalute a binary classification system as well as a multiclass system.  Ratings classes were split into 2,3, and 4 class sets.
+The team evaluated several machine learning classifier models.  These include logistic regression, SVM, RandomForest, Balanced Random Forest, EasyEnsemble, Tensor Flow kera neural net, Extra Trees Classifier.  Attempts were made to evalute a binary classification system as well as a multiclass system.  Ratings classes were split into 2,3, and 4 class sets.
 
 - 2 Class sets were split with one class above the mean plus one SD and the other class below the mean plus one SD.
 
@@ -26,6 +26,8 @@ Utilizing the SMOTEENN combination oversample undersample routine with the binar
 
 The neural network model had relativiely high loss although its accuracy was the highest of the models.  Unfortunately due to the black box nature of the output it is not possible to glean important imformation as to which features are the most inportance to look for in a chocolate bar.
 
+### Machine Learning Segment 3
+The team continue to refine the ML process.  We added a Balanced Random Forest Classifier and tested different balancing routines including Naive Random Oversampling.  Additional changes were made to the parameters including changing the criterion from gini to entropy. This change coupled with adjusting max depth and max features made modest improvements to the Balanced Random Forest and Random Forest models.
 
 ####  Storyboard
 
