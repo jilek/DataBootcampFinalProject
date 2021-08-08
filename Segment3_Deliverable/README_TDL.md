@@ -28,7 +28,9 @@ The neural network model had relativiely high loss although its accuracy was the
 
 ### Machine Learning Segment 3
 The team continues to refine the ML process. We added a Balanced Random Forest Classifier and tested different balancing routines including Naive Random Oversampling and Easy Ensemble AdaBoost Classifier. Additional changes were made to the parameters including changing the criterion from gini to entropy. This change coupled with adjusting max depth , N_estimators and max features made modest improvements to the Balanced Random Forest and Random Forest models.
+
 We tried to play with different random_state but finally we got better result when random_state=42. Team also tried to test the model with splitting the dataset into test_size= 0.2 and train_size=0.8 which provided us better performance. 
+
 In this step Logestic Regression and Random forest(max_depth) model give us high accuracy with high performance. 
 
 Random Forest around 85%
