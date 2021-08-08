@@ -27,7 +27,16 @@ Utilizing the SMOTEENN combination oversample undersample routine with the binar
 The neural network model had relativiely high loss although its accuracy was the highest of the models.  Unfortunately due to the black box nature of the output it is not possible to glean important imformation as to which features are the most inportance to look for in a chocolate bar.
 
 ### Machine Learning Segment 3
-The team continue to refine the ML process.  We added a Balanced Random Forest Classifier and tested different balancing routines including Naive Random Oversampling.  Additional changes were made to the parameters including changing the criterion from gini to entropy. This change coupled with adjusting max depth and max features made modest improvements to the Balanced Random Forest and Random Forest models.
+The team continues to refine the ML process. We added a Balanced Random Forest Classifier and tested different balancing routines including Naive Random Oversampling and Easy Ensemble AdaBoost Classifier. Additional changes were made to the parameters including changing the criterion from gini to entropy. This change coupled with adjusting max depth , N_estimators and max features made modest improvements to the Balanced Random Forest and Random Forest models.
+We tried to play with different random_state but finally we got better result when random_state=42. Team also tried to test the model with splitting the dataset into test_size= 0.2 and train_size=0.8 which provided us better performance. 
+In this step Logestic Regression and Random forest(max_depth) model give us high accuracy with high performance. 
+
+Random Forest around 85%
+![Random Forest binary with SMOTEENN classification report](Images/randomforestbinaryclassifierclassificationreport.png)
+
+Logestic Regression around 82%
+![Random Forest binary with SMOTEENN classification report](Images/randomforestbinaryclassifierclassificationreport.png)
+
 
 ####  Storyboard
 
