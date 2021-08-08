@@ -32,9 +32,11 @@ We tried to play with different random_state but finally we got better result wh
 In this step Logestic Regression and Random forest(max_depth) model give us high accuracy with high performance. 
 
 Random Forest around 85%
+
 ![Max_Depth](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment3_Deliverable/Images/max_depth.PNG)
 
 Logestic Regression around 82%
+
 ![Logestic Regression](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment3_Deliverable/Images/Logistic%20Regression.PNG)
 
 
