@@ -548,9 +548,6 @@ Currently we are going to utilize Tableau to create a working dashboard.   Users
 | Naive Random Oversampling                 | 0.701 | TN=237 FP=90 | p0=0.92 r0=0.72 f0=0.81 |
 |                                           |       | FN=21 TP=44  | p1=0.33 r1=0.68 f1=0.81 |
 |                                           |       |              | pA=0.82 rA=0.72 fA=0.75 |
-| RandomForestClassifier                    | ACC   | TN=X FP=X | p0=X r0=X f0=X |
-|                                           |       | FN=X TP=X | p1=X r1=X f1=X |
-|                                           |       |           | pA=X rA=X fA=X |
 | RandomForestClassifier using N_Estimators up to 200 | 0.837 | TN=316 FP=11 | p0=0.87 r0=0.95 f0=0.91 |
 |                                                     |       | FN=53 TP=12  | p1=0.52 r1=0.26 f1=0.35 |
 |                                                     |       |              | pA=0.81 rA=0.84 fA=0.81 |
@@ -572,9 +569,12 @@ Currently we are going to utilize Tableau to create a working dashboard.   Users
 | Deep Learning Model            | 0.722 | | |
 | [Machine_Learning_Multiclass_Classifier](Machine_Learning_Multiclass_Classifier.ipynb) | | | |
 | ExtraTreesClassifier w/SMOTEEN  | 0.395 |  n/a | pA=0.51 rA=0.40 fA=0.40 |
-| RandomForestClassifier w/SMOTEEN | ACC   | n/a | pA=0.51 rA=0.41 fA=0.41 |
-| Support Vector Machine w/SMOTEEN  | ACC  | n/a | pA=0.55 rA=0.36 fA=0.32 |
+| RandomForestClassifier w/SMOTEEN | 0.388   | n/a | pA=0.51 rA=0.41 fA=0.41 |
+| Support Vector Machine w/SMOTEEN  | 0.358  | n/a | pA=0.55 rA=0.36 fA=0.32 |
 | Deep Learning Model            | 0.536 | | |
+
+
+
 
 ## Appendix 1
 
