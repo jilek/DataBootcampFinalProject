@@ -97,12 +97,12 @@ Table 2 - Rubric for Segment4
 |   | Anything team would have done differently                      | **TBD** See Summary section below |  |
 |   | **Slides**                                                       |                            |     |
 |   |  Presentations are finalized in Google Slides                    | Done: See [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP) |     |
-|   | Slides are primarily images or graphics (rather than primarily text) | **TBD** |   |
-|   | Images are clear, in high-definition, and directly illustrative of subject matter | **TBD** |  |
+|   | Slides are primarily images or graphics (rather than primarily text) | Done. |   |
+|   | Images are clear, in high-definition, and directly illustrative of subject matter | Done. |  |
 |   | **Live Presentation**                                          |   |   |
-|   | All team members present in equal proportions                  | **TBD**  |   |
+|   | All team members present in equal proportions                  | Done.  |   |
 |   | The team demonstrates interactivity of dashboard in real time  | **TBD**  |   |
-|   | The presentation falls within any time limits provided by the instructor | **TBD**  |   |
+|   | The presentation falls within any time limits provided by the instructor | Done.  |   |
 |   | Submission includes speaker notes, flashcards, or a video of the preentation rehearsal | **TBD**  |   |
 | 4 | **GitHub**                                                     |                            |  10 |
 |   | **Main branch**                                                  |                            |     |
@@ -115,8 +115,8 @@ Table 2 - Rubric for Segment4
 |   | **README.md**                                                    |                            |     |
 |   | Communication protocols                                        | Done: Slack          |     |
 |   | Cohesive, structured outline of the project                                         | Done: See Overview above.                    |     |
-|   | Link to dashboard (or link to video of dashboard demo)         | **TBD** |  |
-|   | Link to Google Slides draft presentation | [Done](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP) |   |
+|   | Link to dashboard (or link to video of dashboard demo)         | Done: [See Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/travis.loseke/viz/ChocolateRatings_16273201336290/Selectingthebestbar?publish=yes) |  |
+|   | Link to Google Slides presentation | [Done](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP) |   |
 |   | **Individual Branches**                                          |                            |     |
 |   | At least one branch for each team member                       | Done                       |     |
 |   | Each member has >= 4 commits for Segment4 (>=16 total)          | [**TBD** Bruce=85/22, Taherey=40/16, Travis=31/10, **Yan=44/3**](https://github.com/jilek/DataBootcampFinalProject/pulse) |     |
@@ -144,8 +144,8 @@ Table 2 - Rubric for Segment4
 |   | Data (images or report) from the machine learning task    | Done: See Google Slides | |
 |   | Description of the tools that will be used to create the final dashboard | Done: See Section 12 below and  [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)        |     |
 |   | Description of the interactive elements                        | **TBD**: See Section 12 below.                    |     |
-|   | At least one interactive element                        | Done: [See Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/travis.loseke/viz/ChocolateRatings_16273201336290/Selectingthebestbar?publish=yes)                   |     |
-|   | Either the dashboard is published or the submission includes a screen capture video of it in action | **Done??** | |
+|   | At least one interactive element                        | Done.                    |     |
+|   | Either the dashboard is published or the submission includes a screen capture video of it in action | Done. [See Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/travis.loseke/viz/ChocolateRatings_16273201336290/Selectingthebestbar?publish=yes) | |
 | 4 | **Total**                                                      |                            | 100 |
 
 Figure 1 - Entity Relationship Diagram (ERD) for the provisional Database
@@ -487,6 +487,8 @@ Currently we are going to utilize Tableau to create a working dashboard.   Users
 
 ## Summary
 
+#### Results of the analysis
+
 | Code | Name | Code | Name | Code | Name |
 | :-- | :-- | :-- | :-- | :-- | :-- |
 |    | **Confusion Matrix** | | | | |
@@ -573,7 +575,10 @@ Currently we are going to utilize Tableau to create a working dashboard.   Users
 | Support Vector Machine w/SMOTEEN  | 0.358  | n/a | pA=0.55 rA=0.36 fA=0.32 |
 | Deep Learning Model            | 0.536 | | |
 
+#### Recommendation for future analysis
 
+
+#### Anything team would have done differently
 
 
 ## Appendix 1
