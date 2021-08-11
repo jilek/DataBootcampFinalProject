@@ -8,7 +8,7 @@
 
 2. [Results](#Results)
 
-    [Section 1 - Presentation](#section-1%2E-presentation%3A-description-of-the-data-exploration-phase-of-the-project)
+    [Section 1 - Presentation](#section-1-presentation-description-of-the-data-exploration-phase-of-the-project)
 
 3. [Summary](#Summary)
 
@@ -162,7 +162,7 @@ Figure 1 - Entity Relationship Diagram (ERD) for the provisional Database
 
 ![ERD](Images/erd_diagram.png)
 
-#### Section 1. Presentation: Description of the data exploration phase of the project
+#### Section 1 Presentation Description of the data exploration phase of the project
 
 In this phase we explored a kaggle data set in an unstructured way to uncover initial patterns, characteristics, and points of interest. See Figure 2 below. This process helps create a broad picture of important trends and major points that we need. We cleaned the dataset then analyzed it by creating lots of visualizations (using matplotlib.pyplot and seaborn libraries ) and tables. We also attempted to answer the following questions:
 -	What is each country share of Cocoa Production?
