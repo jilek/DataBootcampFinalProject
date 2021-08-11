@@ -39,7 +39,7 @@
   + [EDA and Data Cleaning](Data_Clean.ipynb)
   + [Connect to AWS RDS Database using Jupyter Notebook](connect_to_rds.ipynb)
   + [Machine_Learning](Machine_Learning.ipynb)
-  + [Data Visualization](Vizualization.ipynb)
+  + [Data Visualization](Visualization.ipynb)
 
 ## Overview
 
