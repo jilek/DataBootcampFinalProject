@@ -7,10 +7,8 @@
 1. [Overview](#Overview)
 
 2. [Results](#Results)
-#### Section 1. Presentation: Description of the data exploration phase of the project
 
-    [Section 1 - Presentation](#Section-1%2E-Presentation%3A-Description-of-the-data-exploration-phase-of-the-project
-)
+    [Section 1 - Presentation](#Section-1%2E-Presentation%3A-Description-of-the-data-exploration-phase-of-the-project)
 
 3. [Summary](#Summary)
 
