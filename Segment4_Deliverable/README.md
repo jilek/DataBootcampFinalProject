@@ -8,7 +8,9 @@
 
 2. [Results](#Results)
 
-    [Section 1 - Presentation](#section-1-presentation-description-of-the-data-exploration-phase-of-the-project)
+    [Section 1 - Presentation](#section-1)
+
+    [Section 2 - Presentation](#section-2)
 
 3. [Summary](#Summary)
 
