@@ -8,9 +8,9 @@
 
 2. [Results](#Results)
 
-    [Section 1 - Presentation](#section-1)
+    [Section 1 - Description of the data exploration phase of the project](#section-1-description-of-the-data-exploration-phase-of-the-project)
 
-    [Section 2 - Presentation](#section-2)
+    [Section 2 - Description of the analysis phase of the project](#section-description-of-the-analysis-phase-of-the-project)
 
 3. [Summary](#Summary)
 
@@ -164,7 +164,7 @@ Figure 1 - Entity Relationship Diagram (ERD) for the provisional Database
 
 ![ERD](Images/erd_diagram.png)
 
-#### Section 1 Presentation Description of the data exploration phase of the project
+#### Section 1 Description of the data exploration phase of the project
 
 In this phase we explored a kaggle data set in an unstructured way to uncover initial patterns, characteristics, and points of interest. See Figure 2 below. This process helps create a broad picture of important trends and major points that we need. We cleaned the dataset then analyzed it by creating lots of visualizations (using matplotlib.pyplot and seaborn libraries ) and tables. We also attempted to answer the following questions:
 -	What is each country share of Cocoa Production?
@@ -195,19 +195,19 @@ Figure 5. Company Location vs. Ratings over Time
 
 ![CompanyLocation_Rating_years.png](Images/CompanyLocation_Rating_years.png)
 
-#### Section 2. Presentation: Description of the analysis phase of the project
+#### Section 2 Description of the analysis phase of the project
 
 Once we cleaned our data and analyzed the dataset by creating several visualizations and tables, the team evaluated several machine learning classifier models to predict the rating of a chocolate bar. Then we compared accuracy and performance of all models together to keep the better one. Finally, we set up database and connected our machine learning to AWS.
 
-#### Section 3. GitHub / README.md: Communication protocols
+#### Section 3 Communication protocols
 
 The team will use **Slack** and **Zoom** for communication. We meet during Tue-Thur class hours, and again at 1pm on Saturdays.
 
-#### Section 4. GitHub / README.md: Outline of the project
+#### Section 4 Outline of the project
 
 See **Overview** section at the top of this file.
 
-#### Section 5. ML Model: Description of preliminary data preprocessing
+#### Section 5 Description of preliminary data preprocessing
 
 The Data cleaning code with some description of a step by step cleaning process can be found in the jupyter notebook file titled "Data_clean.ipynb".
 
@@ -233,7 +233,7 @@ We decide to group the Location column(Broad_Bean_Origin) into continents so we 
 We set a threshold value for 'Review_Date' and ‘Cocoa_Percent’ to identify outliers and then remove them.
 
 
-#### Section 6. ML Model: Description of preliminary feature engineering and preliminary feature selection, including decision-making process
+#### Section 6 Description of preliminary feature engineering
 
 Feature engineering is the process of using domain knowledge of the data to create features that make machine learning algorithms work.
 
@@ -339,7 +339,7 @@ Feature engineering is the process of using domain knowledge of the data to crea
    -	**Combination** approach of **oversampling** and **undersampling**.
 
 
-#### Section 7. ML Model: Description of how data was split into training and testing sets
+#### Section 7 Description of how data was split into training and testing sets
 
 We divide the data set into two parts:
 
@@ -350,7 +350,7 @@ We divide the data set into two parts:
 The train test split can be seamlessly done by sklearn.model_selection.train_test_split from scikit-learn. We decide to split the data into training set (70%) and testing set (30%). We manually specify the desired split with the train_size=  0.7 and test_size= 0.3.
 
 
-#### Section 8. ML Model: Explanation of model choice, including limitations and benefits
+#### Section 8 Explanation of model choice
 
 The team evaluated several machine learning classifier models.  These include logistic regression, SVM, RandomForest, Balanced Random Forest, EasyEnsemble, Tensor Flow keras neural net, and Extra Trees Classifier.  Attempts were made to evalute a binary classification system as well as a multiclass system.  Ratings classes were split into 2,3, and 4 class sets.
 
@@ -414,7 +414,7 @@ See Google slides
 
 Currently we are going to utilize Tableau to create a working dashboard.   Users will be able to select manufacturer country or cocoa bean source country and filter to the data.  Additional filters to allow for rating filters will allow a user to rapidly look at where the best rated bar and their bean sources are located.
 
-#### Section 9. Database: Includes at least two tables
+#### Section 9 Database Part 1
 
 This is the current outline of the ETL process and database set up.
 
@@ -466,7 +466,7 @@ Table 4 - SQL Queries
 | Query to view location_table from RDS |![query_loc](Images/query_loc_table.png) |![output_loc](Images/rds_loc_table.png) |
 | Query to view clean_flavors_table from RDS |![query_clean](Images/query_clean_flavors.png) |  ![clean_output](Images/rds_clean_flavors.png) |
 
-#### Section 10. Database: Includes at least at least one join
+#### Section 10 Database Part 2
 
 * As the data is divided into two tables, we can combine the two tables with a 'JOIN' using SQL syntax embedded within 3 quotemarks as shown in below image.
 * The two tables will be joined together on the 'broad_bean_origin_country' column.
@@ -485,7 +485,7 @@ Figure 20 - Resulting Joined Table
 ![joined_tables](Images/joined_tables.png)
 
 
-#### Section 11. Dashboard: Storyboard on Google Slides
+#### Section 11 Storyboard on Google Slides
 
 See [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)
 
@@ -493,7 +493,7 @@ Figure 21 - The Dashboard
 
 ![Dashboard_slide.png](Images/Dashboard_slide.png)
 
-#### Section 12. Dashboard: Description of the tools and interactive elements that will be used to create the final dashboard
+#### Section 12 Description of the tools and interactive elements
 
 Currently we are going to utilize Tableau to create a working dashboard.   Users will be able to select manufacturer country or cocoa bean source country and filter to the data.  Additional filters to allow for rating filters will allow a user to rapidly look at where the best rated bar and their bean sources are located.
 
