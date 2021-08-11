@@ -4,15 +4,15 @@
 
 ## Table of Contents
 
-1. [Overview](#Overview)
+1. [Overview](#overview)
 
-2. [Results](#Results)
+2. [Results](#results)
 
     [Section 1 - Presentation](#presentation)
-    
-3. [Summary](#Summary)
 
-## Overview
+3. [Summary](#summary)
+
+## Overview {#overview}
 
 - **Topic**: Our team will create a Neural Network to determine the 'rating' of chocolate from this Kaggle dataset.
 - **Reason**: Because we love chocolate. The scientific name is *Theobroma cacao* (Theobroma means "Food of the gods")
@@ -83,7 +83,7 @@ Table 1 - Team Roles for this Project
 
   These ratings were compiled by Brady Brelinski, Founding Member of the Manhattan Chocolate Society. For up-to-date information, as well as additional content (including interviews with craft chocolate makers), please see his website: [Flavors of Cacao](http://flavorsofcacao.com/index.html)
 
-## Results
+## Results {#results}
 
 + See Table A1 in Appendix1 for the Segment1 Rubric
 + See Table A2 in Appendix2 for the Segment2 Rubric
@@ -495,7 +495,7 @@ Figure 21 - The Dashboard
 
 Currently we are going to utilize Tableau to create a working dashboard.   Users will be able to select manufacturer country or cocoa bean source country and filter to the data.  Additional filters to allow for rating filters will allow a user to rapidly look at where the best rated bar and their bean sources are located.
 
-## Summary
+## Summary {#summary}
 
 #### Results of the analysis
 
