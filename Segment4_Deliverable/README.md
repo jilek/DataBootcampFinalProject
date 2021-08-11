@@ -10,9 +10,41 @@
 
     [Section 1 - Description of the data exploration phase of the project](#section-1-description-of-the-data-exploration-phase-of-the-project)
 
-    [Section 2 - Description of the analysis phase of the project](#section-description-of-the-analysis-phase-of-the-project)
+    [Section 2 - Description of the analysis phase of the project](#section-2-description-of-the-analysis-phase-of-the-project)
+
+    [Section 3 Communication protocols](#Section-3-Communication-protocols)
+
+    [Section 4 Outline of the project](#Section-4-Outline-of-the-project)
+
+    [Section 5 Description of preliminary data preprocessing](#Section-5-Description-of-preliminary-data-preprocessing)
+
+    [Section 6 Description of preliminary feature engineering](#Section-6-Description-of-preliminary-feature-engineering)
+
+    [Section 7 Description of how data was split into training and testing sets](#Section-7-Description-of-how-data-was-split-into-training-and-testing-sets)
+
+    [Section 8 Explanation of model choice](#Section-8-Explanation-of-model-choice)
+
+    [Section 9 Database Part 1](#Section-9-Database-Part-1)
+
+    [Section 10 Database Part 2](#Section-10-Database-Part-2)
+
+    [Section 11 Storyboard on Google Slides](#Section-11-Storyboard-on-Google-Slides)
+
+    [Section 12 Description of the tools and interactive elements](#Section-12-Description-of-the-tools-and-interactive-elements)
 
 3. [Summary](#Summary)
+
+    [Results of the analysis](Results-of-the-analysis)
+
+    [Recommendation for future analysis](Recommendation-for-future-analysis)
+
+    [Anything team would have done differently](Anything-team-would-have-done-differently)
+
+    [Appendix 1](Appendix-1)
+
+    [Appendix 2](Appendix-2)
+    
+    [Appendix 3](Appendix-3)
 
 ## Overview
 
