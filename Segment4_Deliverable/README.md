@@ -2,9 +2,9 @@
 
 ## Table of Contents
 
-1. [Overview](#Overview)
+- [Overview](#Overview)
 
-2. [Results](#Results)
+- [Results](#Results)
 
     + [Section 1 - Description of the data exploration phase of the project](#section-1-description-of-the-data-exploration-phase-of-the-project)
     + [Section 2 - Description of the analysis phase of the project](#section-2-description-of-the-analysis-phase-of-the-project)
@@ -20,19 +20,26 @@
     + [Section 12 - Description of the tools and interactive elements](#Section-12-Description-of-the-tools-and-interactive-elements)
 
 
-3. [Summary](#Summary)
+- [Summary](#Summary)
 
     + [Results of the analysis](#results-of-the-analysis)
     + [Recommendation for future analysis](#recommendation-for-future-analysis)
     + [Anything team would have done differently](#anything-team-would-have-done-differently)
 
 
-4. [Rubric](#appendix-rubric)
+- [Rubric in Appendix](#appendix-rubric)
 
-5. Links to Class Deliverables
+
+- Links to Class Deliverables
     + [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)
-    + [Dashboard on Tableau Public](https://public.tableau.com/app/profile/travis.loseke/viz/ChocolateRatings_16273201336290/Selectingthebestbar?publish=yes)
-    
+    + [Dashboard on Tableau Public](https://public.tableau.com/app/profile/travis.loseke/viz/ChocolateRatings_16273201336290/SelectingtheBestChocolateBar)
+
+
+- Jupyter notebooks
+  + [EDA and Data Cleaning](Data_Clean.ipynb)
+  + [Connect to AWS RDS Database using Jupyter Notebook](connect_to_rds.ipynb)
+  + [Machine_Learning](Machine_Learning.ipynb)
+  + [Data Visualization](Visualization.ipynb)
 
 ## Overview
 
@@ -381,7 +388,7 @@ Figure 16 - Database Schema
 
 * PgAdmin is connected directly to Amazon RDS. Through pgAdmin, we have imported the cleaned csv files to populate the tables. When the tables are queried, we can view the tables directly in pgAdmin.
 
-Table 3 - pgAdmin Tables
+Table 2 - pgAdmin Tables
 
 |   |      pgAdmin Tables:     |
 |----------|:-------------:|
@@ -407,7 +414,7 @@ Figure 18 - Connection Confirmed
 
 * After connection has been made with the AWS RDS, we can query RDS within """ """ and store the tables in pandas dataframe.
 
-Table 4 - SQL Queries
+Table 3 - SQL Queries
 
 |  |      SQL Query     |  Output |
 |----------|:-------------:|:------:|
@@ -449,6 +456,8 @@ Currently we are going to utilize Tableau to create a working dashboard.   Users
 
 #### Results of the analysis
 
+Table 4 - Key to Symbols in Tables below
+
 | Code | Name | Code | Name | Code | Name |
 | :-- | :-- | :-- | :-- | :-- | :-- |
 |    | **Confusion Matrix** | | | | |
@@ -459,7 +468,7 @@ Currently we are going to utilize Tableau to create a working dashboard.   Users
 | p1 | Precision 1 | r1 | Recall 1 |  f1 | f1 score 1 |
 | pA | Precision Average/Total | rA | Recall Average/Total | fA | f1 score Average/Total |
 
-
+Table 5 - Data collected from ML models
 
 | Notebook/Model | Accuracy | Confusion Matrix | Classification Report |
 | :--   | --: |--: | --: |
@@ -490,6 +499,8 @@ Currently we are going to utilize Tableau to create a working dashboard.   Users
 
 ## Appendix Rubric
 
+Table A1 - Segment4 Rubric with completion status and notes
+
 | Segment | Item | Details |Points |
 | :--     | :--  | :--     |   --: |
 | 4 | **Presentation** | | 25 |
@@ -512,7 +523,7 @@ Currently we are going to utilize Tableau to create a working dashboard.   Users
 |   | All team members present in equal proportions                  | Done.  |   |
 |   | The team demonstrates interactivity of dashboard in real time  | Done.  |   |
 |   | The presentation falls within any time limits provided by the instructor | Done.  |   |
-|   | Submission includes speaker notes, flashcards, or a video of the preentation rehearsal | **TBD**  |   |
+|   | Submission includes speaker notes, flashcards, or a video of the preentation rehearsal | Done.  |   |
 | 4 | **GitHub**                                                     |                            |  10 |
 |   | **Main branch**                                                  |                            |     |
 |   | All code in the main branch is production-ready.               | Done                |     |
