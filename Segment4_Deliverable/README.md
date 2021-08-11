@@ -22,11 +22,17 @@
 
 3. [Summary](#Summary)
 
-    + [Results of the analysis](Results-of-the-analysis)
-    + [Recommendation for future analysis](Recommendation-for-future-analysis)
-    + [Anything team would have done differently](Anything-team-would-have-done-differently)
+    + [Results of the analysis](#results-of-the-analysis)
+    + [Recommendation for future analysis](#recommendation-for-future-analysis)
+    + [Anything team would have done differently](#anything-team-would-have-done-differently)
+
 
 4. [Rubric](#appendix-rubric)
+
+5. Links to Class Deliverables
+    + [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)
+    + [Dashboard on Tableau Public](https://public.tableau.com/app/profile/travis.loseke/viz/ChocolateRatings_16273201336290/Selectingthebestbar?publish=yes)
+    
 
 ## Overview
 
@@ -37,6 +43,7 @@
     - [Kaggle Chocolate Bar Ratings](https://www.kaggle.com/rtatman/chocolate-bar-ratings)
     - [Flavors of Cacao](http://flavorsofcacao.com/chocolate_database.html)
     - [Kaggle Countries and States Lat Lon](https://www.kaggle.com/paultimothymooney/latitude-and-longitude-for-every-country-and-state)
+
 
 - **Questions we want to answer**:
     1. Can we predict which chocolate bars will be rated in the top 15% (i.e. Rating >= 3.75, one Standard Deviation above the Mean), based on:
@@ -456,36 +463,13 @@ Currently we are going to utilize Tableau to create a working dashboard.   Users
 
 | Notebook/Model | Accuracy | Confusion Matrix | Classification Report |
 | :--   | --: |--: | --: |
-| [Chocolate_Bar_ensemble.ipynb](Chocolate_Bar_ensemble.ipynb) | | | | |
-| BalancedRandomForestClassifier | 0.607 | TN=416 FP=238 | p0=0.88 r0=0.64 f0=0.74 |
-|                                |       | FN=55 TP=75 | p1=0.24 r1=0.58 f1=0.34 |
-| EasyEnsembleClassifier         | 0.587 | TN=320 FP=334 | p0=0.89 r0=0.49 f0=0.63 |
-|                                |       | FN=42 TP=89   | p1=0.21 r1=0.68 f1=0.32 |
-|                                |       |               | pA=0.77 rA=0.52 fA=0.58 |
-| [Chocolate_Bar_resampling.ipynb](Chocolate_Bar_resampling.ipynb) | | | |
-| LogisticRegression with RandomOversampler | 0.576 | TN=340 FP=314 | p0=0.87 r0=0.64 f0=0.74 |
-|                                           |       | FN=56 TP=74 | p1=0.22 r1=0.52 f1=0.31 |
-|                                           |       |             | pA=0.76 rA=0.62 fA=0.66 |
-| LogisticRegression w/SMOTE Oversampling | 0.562 | TN=378 FP=276 | p0=0.86 r0=0.58 f0=0.69 |
-|                                            |       | FN=59 TP=71   | p1=0.20 r1=0.55 f1=0.30 |
-|                                            |       |               | pA=0.76 rA=0.57 fA=0.63 |
-| LogisticRegression w/ClusterCentroids Undersampling | 0.569 | TN=340 FP=314 | p0=0.88 r0=0.45 f0=0.60 |
-|                                                         |       | FN=56 TP=74   | p1=0.20 r1=0.68 f1=0.31 |
-|                                                         |       |               | pA=0.77 rA=0.49 fA=0.55 |
-| LogisticRegression w/SMOTEEN Oversampling & Undersampling | 0.545 | TN=340 FP=314 | p0=0.86 r0=0.52 f0=0.65 |
-|                                                              |       | FN=56 TP=74   | p1=0.19 r1=0.57 f1=0.29 |
-|                                                              |       |               | pA=0.75 rA=0.53 fA=0.59 |
-| [EDA](EDA.ipynb) | | | |
-| RandomForestClassifier | 0.944 | | |
-| SupportVectorMachine | 0.948 | | |
-| Deep Neural Network | 0.946 | | |
-| [Machine_Learning](Machine_Learning.ipynb) | | | |
-| LogisticRegression w/SMOTEEN Oversampling & Undersampling | 0.816 | TN=294 FP=33 | p0=0.88 r0=0.90 f0=0.89 |
-|                                                           |       | FN=39 TP=26  | p1=0.44 r1=0.40 f1=0.42 |
-|                                                           |       |              | pA=0.81 rA=0.82 fA=0.81 |
-| RandomForestClassifier w/SMOTEEN Oversampling & Undersampling | 0.783 | TN=316 FP=11 | p0=0.88 r0=0.85 f0=0.87 |
-|                                                               |       | FN=53 TP=12  | p1=0.37 r1=0.43 f1=0.40 |
-|                                                               |       |              | pA=0.80 rA=0.78 fA=0.79 |
+| [Machine_Learning.ipynb](Machine_Learning.ipynb) | | | |
+| LogisticRegression w/SMOTEEN | 0.816 | TN=294 FP=33 | p0=0.88 r0=0.90 f0=0.89 |
+|                              |       | FN=39 TP=26  | p1=0.44 r1=0.40 f1=0.42 |
+|                              |       |              | pA=0.81 rA=0.82 fA=0.81 |
+| RandomForestClassifier w/SMOTEEN | 0.783 | TN=316 FP=11 | p0=0.88 r0=0.85 f0=0.87 |
+|                                  |       | FN=53 TP=12  | p1=0.37 r1=0.43 f1=0.40 |
+|                                  |       |              | pA=0.80 rA=0.78 fA=0.79 |
 | BalancedRandomForestClassifier | 0.713 | TN=205 FP=122 | p0=0.94 r0=0.63 f0=0.75 |
 |                                |       | FN=13 TP=52   | p1=0.30 r1=0.80 f1=0.44 |
 |                                |       |               | pA=0.83 rA=0.66 fA=0.70 |
@@ -496,37 +480,8 @@ Currently we are going to utilize Tableau to create a working dashboard.   Users
 |                                |       | FN=53 TP=12  | p1=0.55 r1=0.18 f1=0.28 |
 |                                |       |              | pA=0.81 rA=0.84 fA=0.80 |
 | Deep Learning Model            | 0.770 | | |
-| [Machine_Learning-2](Machine_Learning-2.ipynb) | | | |
-| Logistic Regression (no resampling)       | 0.816 | TN=316 FP=11 | p0=0.88 r0=0.90 f0=0.89 |
-|                                           |       | FN=53 TP=12  | p1=0.44 r1=0.40 f1=0.42 |
-|                                           |       |              | pA=0.81 rA=0.82 fA=0.81 |
-| Naive Random Oversampling                 | 0.701 | TN=237 FP=90 | p0=0.92 r0=0.72 f0=0.81 |
-|                                           |       | FN=21 TP=44  | p1=0.33 r1=0.68 f1=0.81 |
-|                                           |       |              | pA=0.82 rA=0.72 fA=0.75 |
-| RandomForestClassifier using N_Estimators up to 200 | 0.837 | TN=316 FP=11 | p0=0.87 r0=0.95 f0=0.91 |
-|                                                     |       | FN=53 TP=12  | p1=0.52 r1=0.26 f1=0.35 |
-|                                                     |       |              | pA=0.81 rA=0.84 fA=0.81 |
-| RandomForestClassifier using max_depth up to 32     | 0.855 | TN=316 FP=11 | p0=0.86 r0=0.98 f0=0.92 |
-|                                                     |       | FN=53 TP=12  | p1=0.70 r1=0.22 f1=0.33 |
-|                                                     |       |              | pA=0.84 rA=0.85 fA=0.82 |
-| BalancedRandomForestClassifier                      | 0.713 | TN=205 FP=122 | p0=0.94 r0=0.63 f0=0.75 |
-|                                                     |       | FN=13 TP=52   | p1=0.30 r1=0.80 f1=0.44 |
-|                                                     |       |               | pA=0.83 rA=0.66 fA=0.70 |
-| EasyEnsembleClassifier with AdaBoost                | 0.713 | TN=205 FP=122 | p0=0.94 r0=0.63 f0=0.75 |
-|                                                     |       | FN=13 TP=52   | p1=0.30 r1=0.80 f1=0.44 |
-|                                                     |       |               | pA=0.83 rA=0.66 fA=0.70 |
-| Support Vector Machine                              | 0.837 | TN=316 FP=11 | p0=0.86 r0=0.97 f0=0.91 |
-|                                                     |       | FN=53 TP=12  | p1=0.52 r1=0.18 f1=0.27 |
-|                                                     |       |              | pA=0.80 rA=0.84 fA=0.80 |
-| GradientBoostingClassifier                          | 0.819 | TN=303 FP=24 | p0=0.87 r0=0.93 f0=0.90 |
-|                                                     |       | FN=47 TP=18  | p1=0.43 r1=0.28 f1=0.34 |
-|                                                     |       |              | pA=0.79 rA=0.82 fA=0.80 |
-| Deep Learning Model            | 0.722 | | |
-| [Machine_Learning_Multiclass_Classifier](Machine_Learning_Multiclass_Classifier.ipynb) | | | |
-| ExtraTreesClassifier w/SMOTEEN  | 0.395 |  n/a | pA=0.51 rA=0.40 fA=0.40 |
-| RandomForestClassifier w/SMOTEEN | 0.388   | n/a | pA=0.51 rA=0.41 fA=0.41 |
-| Support Vector Machine w/SMOTEEN  | 0.358  | n/a | pA=0.55 rA=0.36 fA=0.32 |
-| Deep Learning Model            | 0.536 | | |
+
+
 
 #### Recommendation for future analysis
 
@@ -543,61 +498,61 @@ Currently we are going to utilize Tableau to create a working dashboard.   Users
 |   | Reason for topic                                               | Done: See Overview above |     |
 |   | Desc. of data source                                           | Done: See Overview above |     |
 |   | Questions we want to answer                                    | Done: See Overview above |     |
-|   | Description of the data exploration phase of the project       | Done: See Section 1 below                    |     |
-|   | Description of the analysis phase of the project               | Done: See Section 2 below                   |     |
+|   | Description of the data exploration phase of the project       | Done: See Section 1                     |     |
+|   | Description of the analysis phase of the project               | Done: See Section 2                    |     |
 |   | Technologies, languages, tools, and algorithms used throuout the project | Done: See [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)  |   |
-|   | Result of the analysis                                         | **TBD** See Summary section below |  |
-|   | Recommendation for future analysis                             | **TBD** See Summary section below |  |
-|   | Anything team would have done differently                      | **TBD** See Summary section below |  |
+|   | Result of the analysis                                         | Done: See Summary section |  |
+|   | Recommendation for future analysis                             | **TBD** See Summary section  |  |
+|   | Anything team would have done differently                      | **TBD** See Summary section  |  |
 |   | **Slides**                                                       |                            |     |
 |   |  Presentations are finalized in Google Slides                    | Done: See [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP) |     |
 |   | Slides are primarily images or graphics (rather than primarily text) | Done. |   |
 |   | Images are clear, in high-definition, and directly illustrative of subject matter | Done. |  |
 |   | **Live Presentation**                                          |   |   |
 |   | All team members present in equal proportions                  | Done.  |   |
-|   | The team demonstrates interactivity of dashboard in real time  | **TBD**  |   |
+|   | The team demonstrates interactivity of dashboard in real time  | Done.  |   |
 |   | The presentation falls within any time limits provided by the instructor | Done.  |   |
 |   | Submission includes speaker notes, flashcards, or a video of the preentation rehearsal | **TBD**  |   |
 | 4 | **GitHub**                                                     |                            |  10 |
 |   | **Main branch**                                                  |                            |     |
 |   | All code in the main branch is production-ready.               | Done                |     |
-|   | All code is clean, commented, easy to read, and adheres to a coding standard (e.g. PEP8) | **TBD** |  |
-|   | All code necessary to perform exploratory analysis             | Done: [Data_Clean.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment4_Deliverable/Data_Clean.ipynb) , [EDA.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment4_Deliverable/EDA.ipynb)      |     |
-|   | All code necessary to complete the machine learning portion   | **TBD**: [EDA.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment4_Deliverable/EDA.ipynb) , [Machine_Learning.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment4_Deliverable/Machine_Learning.ipynb) ,  [ChocolateBarRatings.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment4_Deliverable/ChocolateBarRatings.ipynb) |
+|   | All code is clean, commented, easy to read, and adheres to a coding standard (e.g. PEP8) | Done. |  |
+|   | All code necessary to perform exploratory analysis             | Done: [Data_Clean.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment4_Deliverable/Data_Clean.ipynb) |     |
+|   | All code necessary to complete the machine learning portion   | Done: [Machine_Learning.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment4_Deliverable/Machine_Learning.ipynb) |
 |   | Any images that have been created (at least 3)                 | Done: See this README.md |  |
 |   | Requirements.txt file                                          | Done | |
 |   | **README.md**                                                    |                            |     |
 |   | Communication protocols                                        | Done: Slack          |     |
 |   | Cohesive, structured outline of the project                                         | Done: See Overview above.                    |     |
-|   | Link to dashboard (or link to video of dashboard demo)         | Done: [See Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/travis.loseke/viz/ChocolateRatings_16273201336290/Selectingthebestbar?publish=yes) |  |
+|   | Link to dashboard (or link to video of dashboard demo)         | Done: [Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/travis.loseke/viz/ChocolateRatings_16273201336290/Selectingthebestbar?publish=yes) |  |
 |   | Link to Google Slides presentation | [Done](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP) |   |
 |   | **Individual Branches**                                          |                            |     |
 |   | At least one branch for each team member                       | Done                       |     |
-|   | Each member has >= 4 commits for Segment4 (>=16 total)          | [**TBD** Bruce=85/22, Taherey=40/16, Travis=31/10, **Yan=44/3**](https://github.com/jilek/DataBootcampFinalProject/pulse) |     |
+|   | Each member has >= 4 commits for Segment4 (>=16 total)          | [Done](https://github.com/jilek/DataBootcampFinalProject/pulse) |     |
 | 4 | **ML model**  |  | 25 |
 |   | Working code in Segment4_Deliverable dir                       | Done|   |
-|   | Description of data preprocessing                  | Done: See Section 5 below.                    |     |
-|   | Description of feature engineering and feature selection, including decision-making process                 | Done: See Section 6 below                   |     |
-|   | Description of how data was split into training and testing sets | Done: See Section 7 below |  |
-|   | Explanation of model choice, including limitations and benefits | Done: See Section 8 below  |  |
-|   | Explanation of changes in model choice (if any between Segments) | Done: See Section 8  below  |  |
-|   | Description of how model was trained. | Done: See Section 7 below |  |
-|   | Description and explanation of model's confusion matrix, including final accuracy score                      | Done: See Section 8 below |  |
-|   | Does the model adress the questions team is solving? | **TBD** | |
-|   | If statistical analysis is not included as part of the current analysis, include a description of how it would be included in the next phases of the project | **TBD** | |
+|   | Description of data preprocessing                  | Done: See Section 5 .                    |     |
+|   | Description of feature engineering and feature selection, including decision-making process                 | Done: See Section 6                    |     |
+|   | Description of how data was split into training and testing sets | Done: See Section 7  |  |
+|   | Explanation of model choice, including limitations and benefits | Done: See Section 8   |  |
+|   | Explanation of changes in model choice (if any between Segments) | Done: See Section 8    |  |
+|   | Description of how model was trained. | Done: See Section 7  |  |
+|   | Description and explanation of model's confusion matrix, including final accuracy score                      | Done: See Section 8  |  |
+|   | Does the model adress the questions team is solving? | Done. (Yes) | |
+|   | If statistical analysis is not included as part of the current analysis, include a description of how it would be included in the next phases of the project | Done. See Section 6 | |
 | 4 | **Database**                                                   |                            | 25  |
 |   | Stores static data for use during the project                  | Done: RDS + PostgreSQL    |    |
-|   | Interfaces with the project in some format  | Done: See Section 9 below              |     |
-|   | Includes at least two tables                                   | Done: See Section 9 below                    |     |
-|   | Includes at least at least one join                            | Done: See Section 10 below                  |     |
+|   | Interfaces with the project in some format  | Done: See Section 9               |     |
+|   | Includes at least two tables                                   | Done: See Section 9                     |     |
+|   | Includes at least at least one join                            | Done: See Section 10                   |     |
 |   | Includes at least one connection string                        | Done: SQLAlchemy and psycopg2     |     |
-|   | Include ERD                                                    | Done: See Figure 1 below  |     |
+|   | Include ERD                                                    | Done: See Figure 1   |     |
 | 4 | **Dashboard**                                                  |                            |  15 |
 |   | [Live dashboard on Tableau Public](https://public.tableau.com/app/profile/travis.loseke/viz/ChocolateRatings_16273201336290/Selectingthebestbar?publish=yes) | | |
-|   | Images from the initial analysis | Done: See Section 11 below and Google Slides        |   |
+|   | Images from the initial analysis | Done: See Section 11  and Google Slides        |   |
 |   | Data (images or report) from the machine learning task    | Done: See Google Slides | |
-|   | Description of the tools that will be used to create the final dashboard | Done: See Section 12 below and  [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)        |     |
-|   | Description of the interactive elements                        | **TBD**: See Section 12 below.                    |     |
+|   | Description of the tools that will be used to create the final dashboard | Done: See Section 12  and  [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)        |     |
+|   | Description of the interactive elements                        | Done: See Section 12 .                    |     |
 |   | At least one interactive element                        | Done.                    |     |
 |   | Either the dashboard is published or the submission includes a screen capture video of it in action | Done. [See Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/travis.loseke/viz/ChocolateRatings_16273201336290/Selectingthebestbar?publish=yes) | |
 | 4 | **Total**                                                      |                            | 100 |
