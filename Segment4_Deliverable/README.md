@@ -476,26 +476,35 @@ Table 5 - Data collected from ML models
 | LogisticRegression w/SMOTEEN | 0.816 | TN=294 FP=33 | p0=0.88 r0=0.90 f0=0.89 |
 |                              |       | FN=39 TP=26  | p1=0.44 r1=0.40 f1=0.42 |
 |                              |       |              | pA=0.81 rA=0.82 fA=0.81 |
-| RandomForestClassifier w/SMOTEEN | 0.783 | TN=316 FP=11 | p0=0.88 r0=0.85 f0=0.87 |
-|                                  |       | FN=53 TP=12  | p1=0.37 r1=0.43 f1=0.40 |
-|                                  |       |              | pA=0.80 rA=0.78 fA=0.79 |
+| **RandomForestClassifier w/SMOTEEN** | **0.837** | **TN=301 FP=26** | **p0=0.89 r0=0.92 f0=0.90** |
+|                                  |               | **FN=38 TP=27**  | **p1=0.51 r1=0.42 f1=0.46** |
+|                                  |               |                  | **pA=0.83 rA=0.84 fA=0.83** |
 | BalancedRandomForestClassifier | 0.713 | TN=205 FP=122 | p0=0.94 r0=0.63 f0=0.75 |
 |                                |       | FN=13 TP=52   | p1=0.30 r1=0.80 f1=0.44 |
 |                                |       |               | pA=0.83 rA=0.66 fA=0.70 |
 | SupportVectorMachine           | 0.837 | TN=316 FP=11  | p0=0.86 r0=0.97 f0=0.91 |
 |                                |       | FN=53 TP=12   | p1=0.52 r1=0.18 f1=0.27 |
-|                                |       |               | pA=X rA=X fA=X |
+|                                |       |               | pA=0.80 rA=0.84 fA=0.80 |
 | GradientBoost                  | 0.840 | TN=317 FP=10 | p0=0.86 r0=0.97 f0=0.91 |
 |                                |       | FN=53 TP=12  | p1=0.55 r1=0.18 f1=0.28 |
 |                                |       |              | pA=0.81 rA=0.84 fA=0.80 |
-| Deep Learning Model            | 0.770 | | |
+| Deep Learning Model            | 0.763 | | |
 
-
+The RandomForestClassifier with SMOTEEN Under and Oversampling performed better overall compared to the other classifier models in our experiment, although LogisticRegression and SVM were not far behind.
 
 #### Recommendation for future analysis
 
+The Kaggle dataset was limited to 'Artisanal' chocolate bars. It would have been interesting to see a dataset with more 'everyday' chocolate bars rated. The artisanal bars are not readily available in local markets, and must be ordered online. So any ability to verify the taste-test ratings at home is limited to online orders, which might influence the quality of the chocolate bars (texture or flavor changes during delivery). It's not clear if the manufacturers take extra precautions to guarantee freshness during delivery of online orders, similar to the way live lobsters are delivered. Any such extra measures would increase the price of some already very expensive luxury chocolate bars.
 
 #### Anything team would have done differently
+
+This particular dataset was not very clean. There were many errors, such as:
+- Giving a City, or US State as the Country of origin.
+- Mispellings (e.g. Niacragua instead of Nicaragua)
+- Acronyms (U.S.A. for countries, which did not match the geo data that we used)
+- The biggest flaw in the data was that 957 out of 1,796 rows were missing the Cocoa Bean Type.
+
+Starting with a cleaner dataset would have: a) made the process easier, and b) probably allowed the classifiers to perform better.
 
 ## Appendix Rubric
 
@@ -513,8 +522,8 @@ Table A1 - Segment4 Rubric with completion status and notes
 |   | Description of the analysis phase of the project               | Done: See Section 2                    |     |
 |   | Technologies, languages, tools, and algorithms used throuout the project | Done: See [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)  |   |
 |   | Result of the analysis                                         | Done: See Summary section |  |
-|   | Recommendation for future analysis                             | **TBD** See Summary section  |  |
-|   | Anything team would have done differently                      | **TBD** See Summary section  |  |
+|   | Recommendation for future analysis                             | Done: See Summary section  |  |
+|   | Anything team would have done differently                      | Done: See Summary section  |  |
 |   | **Slides**                                                       |                            |     |
 |   |  Presentations are finalized in Google Slides                    | Done: See [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP) |     |
 |   | Slides are primarily images or graphics (rather than primarily text) | Done. |   |
