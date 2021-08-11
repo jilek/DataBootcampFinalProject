@@ -6,37 +6,27 @@
 
 2. [Results](#Results)
 
-    [Section 1 - Description of the data exploration phase of the project](#section-1-description-of-the-data-exploration-phase-of-the-project)
+    + [Section 1 - Description of the data exploration phase of the project](#section-1-description-of-the-data-exploration-phase-of-the-project)
+    + [Section 2 - Description of the analysis phase of the project](#section-2-description-of-the-analysis-phase-of-the-project)
+    + [Section 3 - Communication protocols](#Section-3-Communication-protocols)
+    + [Section 4 - Outline of the project](#Section-4-Outline-of-the-project)
+    + [Section 5 - Description of preliminary data preprocessing](#Section-5-Description-of-preliminary-data-preprocessing)
+    + [Section 6 - Description of preliminary feature engineering](#Section-6-Description-of-preliminary-feature-engineering)
+    + [Section 7 - Description of how data was split into training and testing sets](#Section-7-Description-of-how-data-was-split-into-training-and-testing-sets)
+    + [Section 8 - Explanation of model choice](#Section-8-Explanation-of-model-choice)
+    + [Section 9 - Database Part 1](#Section-9-Database-Part-1)
+    + [Section 10 - Database Part 2](#Section-10-Database-Part-2)
+    + [Section 11 - Storyboard on Google Slides](#Section-11-Storyboard-on-Google-Slides)
+    + [Section 12 - Description of the tools and interactive elements](#Section-12-Description-of-the-tools-and-interactive-elements)
 
-    [Section 2 - Description of the analysis phase of the project](#section-2-description-of-the-analysis-phase-of-the-project)
-
-    [Section 3 Communication protocols](#Section-3-Communication-protocols)
-
-    [Section 4 Outline of the project](#Section-4-Outline-of-the-project)
-
-    [Section 5 Description of preliminary data preprocessing](#Section-5-Description-of-preliminary-data-preprocessing)
-
-    [Section 6 Description of preliminary feature engineering](#Section-6-Description-of-preliminary-feature-engineering)
-
-    [Section 7 Description of how data was split into training and testing sets](#Section-7-Description-of-how-data-was-split-into-training-and-testing-sets)
-
-    [Section 8 Explanation of model choice](#Section-8-Explanation-of-model-choice)
-
-    [Section 9 Database Part 1](#Section-9-Database-Part-1)
-
-    [Section 10 Database Part 2](#Section-10-Database-Part-2)
-
-    [Section 11 Storyboard on Google Slides](#Section-11-Storyboard-on-Google-Slides)
-
-    [Section 12 Description of the tools and interactive elements](#Section-12-Description-of-the-tools-and-interactive-elements)
 
 3. [Summary](#Summary)
 
-    [Results of the analysis](Results-of-the-analysis)
+    + [Results of the analysis](Results-of-the-analysis)
+    + [Recommendation for future analysis](Recommendation-for-future-analysis)
+    + [Anything team would have done differently](Anything-team-would-have-done-differently)
 
-    [Recommendation for future analysis](Recommendation-for-future-analysis)
-
-    [Anything team would have done differently](Anything-team-would-have-done-differently)
+4. [Rubric](#appendix-rubric)
 
 ## Overview
 
@@ -110,74 +100,6 @@ Table 1 - Team Roles for this Project
 
 ## Results
 
-Table 2 - Rubric for Segment4
-
-| Segment | Item | Details |Points |
-| :--     | :--  | :--     |   --: |
-| 4 | **Presentation** | | 25 |
-|   | **Content** | |  |
-|   | Selected topic                                                 | Done: See Overview above |     |
-|   | Reason for topic                                               | Done: See Overview above |     |
-|   | Desc. of data source                                           | Done: See Overview above |     |
-|   | Questions we want to answer                                    | Done: See Overview above |     |
-|   | Description of the data exploration phase of the project       | Done: See Section 1 below                    |     |
-|   | Description of the analysis phase of the project               | Done: See Section 2 below                   |     |
-|   | Technologies, languages, tools, and algorithms used throuout the project | Done: See [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)  |   |
-|   | Result of the analysis                                         | **TBD** See Summary section below |  |
-|   | Recommendation for future analysis                             | **TBD** See Summary section below |  |
-|   | Anything team would have done differently                      | **TBD** See Summary section below |  |
-|   | **Slides**                                                       |                            |     |
-|   |  Presentations are finalized in Google Slides                    | Done: See [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP) |     |
-|   | Slides are primarily images or graphics (rather than primarily text) | Done. |   |
-|   | Images are clear, in high-definition, and directly illustrative of subject matter | Done. |  |
-|   | **Live Presentation**                                          |   |   |
-|   | All team members present in equal proportions                  | Done.  |   |
-|   | The team demonstrates interactivity of dashboard in real time  | **TBD**  |   |
-|   | The presentation falls within any time limits provided by the instructor | Done.  |   |
-|   | Submission includes speaker notes, flashcards, or a video of the preentation rehearsal | **TBD**  |   |
-| 4 | **GitHub**                                                     |                            |  10 |
-|   | **Main branch**                                                  |                            |     |
-|   | All code in the main branch is production-ready.               | Done                |     |
-|   | All code is clean, commented, easy to read, and adheres to a coding standard (e.g. PEP8) | **TBD** |  |
-|   | All code necessary to perform exploratory analysis             | Done: [Data_Clean.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment4_Deliverable/Data_Clean.ipynb) , [EDA.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment4_Deliverable/EDA.ipynb)      |     |
-|   | All code necessary to complete the machine learning portion   | **TBD**: [EDA.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment4_Deliverable/EDA.ipynb) , [Machine_Learning.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment4_Deliverable/Machine_Learning.ipynb) ,  [ChocolateBarRatings.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment4_Deliverable/ChocolateBarRatings.ipynb) |
-|   | Any images that have been created (at least 3)                 | Done: See this README.md |  |
-|   | Requirements.txt file                                          | Done | |
-|   | **README.md**                                                    |                            |     |
-|   | Communication protocols                                        | Done: Slack          |     |
-|   | Cohesive, structured outline of the project                                         | Done: See Overview above.                    |     |
-|   | Link to dashboard (or link to video of dashboard demo)         | Done: [See Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/travis.loseke/viz/ChocolateRatings_16273201336290/Selectingthebestbar?publish=yes) |  |
-|   | Link to Google Slides presentation | [Done](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP) |   |
-|   | **Individual Branches**                                          |                            |     |
-|   | At least one branch for each team member                       | Done                       |     |
-|   | Each member has >= 4 commits for Segment4 (>=16 total)          | [**TBD** Bruce=85/22, Taherey=40/16, Travis=31/10, **Yan=44/3**](https://github.com/jilek/DataBootcampFinalProject/pulse) |     |
-| 4 | **ML model**  |  | 25 |
-|   | Working code in Segment4_Deliverable dir                       | Done|   |
-|   | Description of data preprocessing                  | Done: See Section 5 below.                    |     |
-|   | Description of feature engineering and feature selection, including decision-making process                 | Done: See Section 6 below                   |     |
-|   | Description of how data was split into training and testing sets | Done: See Section 7 below |  |
-|   | Explanation of model choice, including limitations and benefits | Done: See Section 8 below  |  |
-|   | Explanation of changes in model choice (if any between Segments) | Done: See Section 8  below  |  |
-|   | Description of how model was trained. | Done: See Section 7 below |  |
-|   | Description and explanation of model's confusion matrix, including final accuracy score                      | Done: See Section 8 below |  |
-|   | Does the model adress the questions team is solving? | **TBD** | |
-|   | If statistical analysis is not included as part of the current analysis, include a description of how it would be included in the next phases of the project | **TBD** | |
-| 4 | **Database**                                                   |                            | 25  |
-|   | Stores static data for use during the project                  | Done: RDS + PostgreSQL    |    |
-|   | Interfaces with the project in some format  | Done: See Section 9 below              |     |
-|   | Includes at least two tables                                   | Done: See Section 9 below                    |     |
-|   | Includes at least at least one join                            | Done: See Section 10 below                  |     |
-|   | Includes at least one connection string                        | Done: SQLAlchemy and psycopg2     |     |
-|   | Include ERD                                                    | Done: See Figure 1 below  |     |
-| 4 | **Dashboard**                                                  |                            |  15 |
-|   | [Live dashboard on Tableau Public](https://public.tableau.com/app/profile/travis.loseke/viz/ChocolateRatings_16273201336290/Selectingthebestbar?publish=yes) | | |
-|   | Images from the initial analysis | Done: See Section 11 below and Google Slides        |   |
-|   | Data (images or report) from the machine learning task    | Done: See Google Slides | |
-|   | Description of the tools that will be used to create the final dashboard | Done: See Section 12 below and  [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)        |     |
-|   | Description of the interactive elements                        | **TBD**: See Section 12 below.                    |     |
-|   | At least one interactive element                        | Done.                    |     |
-|   | Either the dashboard is published or the submission includes a screen capture video of it in action | Done. [See Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/travis.loseke/viz/ChocolateRatings_16273201336290/Selectingthebestbar?publish=yes) | |
-| 4 | **Total**                                                      |                            | 100 |
 
 Figure 1 - Entity Relationship Diagram (ERD) for the provisional Database
 
@@ -610,3 +532,72 @@ Currently we are going to utilize Tableau to create a working dashboard.   Users
 
 
 #### Anything team would have done differently
+
+## Appendix Rubric
+
+| Segment | Item | Details |Points |
+| :--     | :--  | :--     |   --: |
+| 4 | **Presentation** | | 25 |
+|   | **Content** | |  |
+|   | Selected topic                                                 | Done: See Overview above |     |
+|   | Reason for topic                                               | Done: See Overview above |     |
+|   | Desc. of data source                                           | Done: See Overview above |     |
+|   | Questions we want to answer                                    | Done: See Overview above |     |
+|   | Description of the data exploration phase of the project       | Done: See Section 1 below                    |     |
+|   | Description of the analysis phase of the project               | Done: See Section 2 below                   |     |
+|   | Technologies, languages, tools, and algorithms used throuout the project | Done: See [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)  |   |
+|   | Result of the analysis                                         | **TBD** See Summary section below |  |
+|   | Recommendation for future analysis                             | **TBD** See Summary section below |  |
+|   | Anything team would have done differently                      | **TBD** See Summary section below |  |
+|   | **Slides**                                                       |                            |     |
+|   |  Presentations are finalized in Google Slides                    | Done: See [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP) |     |
+|   | Slides are primarily images or graphics (rather than primarily text) | Done. |   |
+|   | Images are clear, in high-definition, and directly illustrative of subject matter | Done. |  |
+|   | **Live Presentation**                                          |   |   |
+|   | All team members present in equal proportions                  | Done.  |   |
+|   | The team demonstrates interactivity of dashboard in real time  | **TBD**  |   |
+|   | The presentation falls within any time limits provided by the instructor | Done.  |   |
+|   | Submission includes speaker notes, flashcards, or a video of the preentation rehearsal | **TBD**  |   |
+| 4 | **GitHub**                                                     |                            |  10 |
+|   | **Main branch**                                                  |                            |     |
+|   | All code in the main branch is production-ready.               | Done                |     |
+|   | All code is clean, commented, easy to read, and adheres to a coding standard (e.g. PEP8) | **TBD** |  |
+|   | All code necessary to perform exploratory analysis             | Done: [Data_Clean.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment4_Deliverable/Data_Clean.ipynb) , [EDA.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment4_Deliverable/EDA.ipynb)      |     |
+|   | All code necessary to complete the machine learning portion   | **TBD**: [EDA.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment4_Deliverable/EDA.ipynb) , [Machine_Learning.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment4_Deliverable/Machine_Learning.ipynb) ,  [ChocolateBarRatings.ipynb](https://github.com/jilek/DataBootcampFinalProject/blob/main/Segment4_Deliverable/ChocolateBarRatings.ipynb) |
+|   | Any images that have been created (at least 3)                 | Done: See this README.md |  |
+|   | Requirements.txt file                                          | Done | |
+|   | **README.md**                                                    |                            |     |
+|   | Communication protocols                                        | Done: Slack          |     |
+|   | Cohesive, structured outline of the project                                         | Done: See Overview above.                    |     |
+|   | Link to dashboard (or link to video of dashboard demo)         | Done: [See Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/travis.loseke/viz/ChocolateRatings_16273201336290/Selectingthebestbar?publish=yes) |  |
+|   | Link to Google Slides presentation | [Done](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP) |   |
+|   | **Individual Branches**                                          |                            |     |
+|   | At least one branch for each team member                       | Done                       |     |
+|   | Each member has >= 4 commits for Segment4 (>=16 total)          | [**TBD** Bruce=85/22, Taherey=40/16, Travis=31/10, **Yan=44/3**](https://github.com/jilek/DataBootcampFinalProject/pulse) |     |
+| 4 | **ML model**  |  | 25 |
+|   | Working code in Segment4_Deliverable dir                       | Done|   |
+|   | Description of data preprocessing                  | Done: See Section 5 below.                    |     |
+|   | Description of feature engineering and feature selection, including decision-making process                 | Done: See Section 6 below                   |     |
+|   | Description of how data was split into training and testing sets | Done: See Section 7 below |  |
+|   | Explanation of model choice, including limitations and benefits | Done: See Section 8 below  |  |
+|   | Explanation of changes in model choice (if any between Segments) | Done: See Section 8  below  |  |
+|   | Description of how model was trained. | Done: See Section 7 below |  |
+|   | Description and explanation of model's confusion matrix, including final accuracy score                      | Done: See Section 8 below |  |
+|   | Does the model adress the questions team is solving? | **TBD** | |
+|   | If statistical analysis is not included as part of the current analysis, include a description of how it would be included in the next phases of the project | **TBD** | |
+| 4 | **Database**                                                   |                            | 25  |
+|   | Stores static data for use during the project                  | Done: RDS + PostgreSQL    |    |
+|   | Interfaces with the project in some format  | Done: See Section 9 below              |     |
+|   | Includes at least two tables                                   | Done: See Section 9 below                    |     |
+|   | Includes at least at least one join                            | Done: See Section 10 below                  |     |
+|   | Includes at least one connection string                        | Done: SQLAlchemy and psycopg2     |     |
+|   | Include ERD                                                    | Done: See Figure 1 below  |     |
+| 4 | **Dashboard**                                                  |                            |  15 |
+|   | [Live dashboard on Tableau Public](https://public.tableau.com/app/profile/travis.loseke/viz/ChocolateRatings_16273201336290/Selectingthebestbar?publish=yes) | | |
+|   | Images from the initial analysis | Done: See Section 11 below and Google Slides        |   |
+|   | Data (images or report) from the machine learning task    | Done: See Google Slides | |
+|   | Description of the tools that will be used to create the final dashboard | Done: See Section 12 below and  [Presentation as Google Slides](https://drive.google.com/drive/folders/1R4K90dXMlQ8stR5bSdv7_Ihnfq-KnghP)        |     |
+|   | Description of the interactive elements                        | **TBD**: See Section 12 below.                    |     |
+|   | At least one interactive element                        | Done.                    |     |
+|   | Either the dashboard is published or the submission includes a screen capture video of it in action | Done. [See Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/travis.loseke/viz/ChocolateRatings_16273201336290/Selectingthebestbar?publish=yes) | |
+| 4 | **Total**                                                      |                            | 100 |
