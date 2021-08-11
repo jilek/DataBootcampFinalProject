@@ -4,15 +4,15 @@
 
 ## Table of Contents
 
-1. [Overview](#overview)
+1. [Overview](#Overview)
 
-2. [Results](#results)
+2. [Results](#Results)
 
-    [Section 1 - Presentation](#presentation)
+    [Section 1 - Presentation](#Section-1.-Presentation:-Description-of-the-data-exploration-phase-of-the-project)
 
-3. [Summary](#summary)
+3. [Summary](#Summary)
 
-## Overview {#overview}
+## Overview
 
 - **Topic**: Our team will create a Neural Network to determine the 'rating' of chocolate from this Kaggle dataset.
 - **Reason**: Because we love chocolate. The scientific name is *Theobroma cacao* (Theobroma means "Food of the gods")
@@ -83,7 +83,7 @@ Table 1 - Team Roles for this Project
 
   These ratings were compiled by Brady Brelinski, Founding Member of the Manhattan Chocolate Society. For up-to-date information, as well as additional content (including interviews with craft chocolate makers), please see his website: [Flavors of Cacao](http://flavorsofcacao.com/index.html)
 
-## Results {#results}
+## Results
 
 + See Table A1 in Appendix1 for the Segment1 Rubric
 + See Table A2 in Appendix2 for the Segment2 Rubric
@@ -162,7 +162,7 @@ Figure 1 - Entity Relationship Diagram (ERD) for the provisional Database
 
 ![ERD](Images/erd_diagram.png)
 
-#### Section 1. Presentation: Description of the data exploration phase of the project {#presentation}
+#### Section 1. Presentation: Description of the data exploration phase of the project
 
 In this phase we explored a kaggle data set in an unstructured way to uncover initial patterns, characteristics, and points of interest. See Figure 2 below. This process helps create a broad picture of important trends and major points that we need. We cleaned the dataset then analyzed it by creating lots of visualizations (using matplotlib.pyplot and seaborn libraries ) and tables. We also attempted to answer the following questions:
 -	What is each country share of Cocoa Production?
@@ -495,7 +495,7 @@ Figure 21 - The Dashboard
 
 Currently we are going to utilize Tableau to create a working dashboard.   Users will be able to select manufacturer country or cocoa bean source country and filter to the data.  Additional filters to allow for rating filters will allow a user to rapidly look at where the best rated bar and their bean sources are located.
 
-## Summary {#summary}
+## Summary
 
 #### Results of the analysis
 
