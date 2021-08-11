@@ -2,6 +2,12 @@
 
 **This is the Segment4 Deliverable for the Data Analytics Bootcamp Final Project.**
 
+# Table of Contents
+
+1. [Overview](#Overview)
+
+2. [Results](#Results)
+
 ## Overview
 
 - **Topic**: Our team will create a Neural Network to determine the 'rating' of chocolate from this Kaggle dataset.
