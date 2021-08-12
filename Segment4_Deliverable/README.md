@@ -397,7 +397,7 @@ Table 2 - pgAdmin Tables
 
 ###### Connecting to AWS RDS using Python:
 
-* The libraries pyscopg2 and sqlAlchemy will be used to connect to AWS RDS from Jupyter notebooks. Call the connect_to_db function to connect to AWS RDS and enter password.
+* The libraries pyscopg2 and sqlAlchemy will be used to connect to AWS RDS from Jupyter notebooks. Call the connect_to_db function to connect to AWS RDS and enter password. This will initiate a new database session.
 
 Figure 17 - Connect to RDS
 
